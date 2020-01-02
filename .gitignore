@@ -1,4 +1,9 @@
+# Jekyll local artifacts
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+
+# IDE files
+.idea
+*.iml
