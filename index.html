@@ -1,14 +1,29 @@
 ---
 layout: default
-title: Vraid Systems
+title: Vraid Systems Asset Stewardship
 ---
 
 <div class="card">
     <ul class="table-view">
-        <li class="table-view-cell">
-            <p>
-                TODO
-            </p>
+        {% for post in site.posts %}
+        {% if post.tags contains 'preview' %}
+        {% comment %} liquid is missing negation {% endcomment %}
+        {% elsif post.confidence %}
+        <li class="table-view-cell media">
+            <a class="navigate-right" data-ignore="push" href="{{ post.url }}" title="{{ post.title }} permalink">
+                {% if post.confidence > 0 %}
+                <span class="media-object pull-left icon icon-up badge-positive"></span>
+                {% elsif post.confidence == 0 %}
+                <span class="media-object pull-left icon icon-more"></span>
+                {% elsif post.confidence < 0 %}
+                <span class="media-object pull-left icon icon-down badge-negative"></span>
+                {% endif %}
+                <div class="media-body">
+                    {{ post.title }}
+                </div>
+            </a>
         </li>
+        {% endif %}
+        {% endfor %}
     </ul>
 </div>
