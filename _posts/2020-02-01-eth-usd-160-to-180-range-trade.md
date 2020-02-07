@@ -4,7 +4,7 @@ title: ETH-USD 160 to 180 range trade
 confidence: -0.2
 tags:
 - Crypto
-- ETH
+- ETH-USD
 - Elliot Wave
 - Technical Analysis
 ---

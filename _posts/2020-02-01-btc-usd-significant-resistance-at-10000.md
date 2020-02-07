@@ -4,7 +4,7 @@ title: BTC-USD significant resistance at 10000
 confidence: -0.2
 tags:
 - Crypto
-- BTC
+- BTC-USD
 - Sequential
 - Technical Analysis
 ---

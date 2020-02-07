@@ -4,7 +4,7 @@ title: BTC-USD needs to hit 7100 to breach 10000
 confidence: 0.2
 tags:
 - Crypto
-- BTC
+- BTC-USD
 - Elliot Wave
 - Technical Analysis
 ---

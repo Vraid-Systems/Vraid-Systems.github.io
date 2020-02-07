@@ -4,7 +4,7 @@ title: BTC-USD reversal to 7800?
 confidence: -0.2
 tags:
 - Crypto
-- BTC
+- BTC-USD
 - Sequential
 - Technical Analysis
 ---
