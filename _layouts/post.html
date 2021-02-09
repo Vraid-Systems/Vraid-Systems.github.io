@@ -2,23 +2,31 @@
 layout: default
 ---
 
-<div class="content-padded post-content">
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                {{ post.title }}
+            </a>
+        </div>
+    </nav>
 
-    {{ content }}
+    <section class="projects-section bg-light">
+        {{ content }}
 
-    <hr />
+        <hr />
 
-    <p>
-        {{ page.content | number_of_words }} words.
-        Post tags: {{ page.tags | array_to_sentence_string }}.
-    </p>
+        <p>
+            {{ page.content | number_of_words }} words.
+            Post tags: {{ page.tags | array_to_sentence_string }}.
+        </p>
 
-    <p>
-        {% assign date = page.date | date:"%Y-%m-%d" %}
-        {% assign title = page.url | append:'ext' | replace:'/ext','.md' | split:'/' | last %}
-        <a href="https://github.com/Vraid-Systems/Vraid-Systems.github.io/blob/master/_posts/{{date}}-{{title}}">Post content</a>
-        is licensed
-        <a href="http://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC 3.0</a>.
-    </p>
-
-</div>
+        <p>
+            {% assign date = page.date | date:"%Y-%m-%d" %}
+            {% assign title = page.url | append:'ext' | replace:'/ext','.md' | split:'/' | last %}
+            <a href="https://github.com/Vraid-Systems/Vraid-Systems.github.io/blob/master/_posts/{{date}}-{{title}}">Post content</a>
+            is licensed
+            <a href="http://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC 3.0</a>.
+        </p>
+    </section>
+</body>
