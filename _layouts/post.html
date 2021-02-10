@@ -5,28 +5,61 @@ layout: default
 <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                {{ post.title }}
+            <a class="navbar-brand js-scroll-trigger" href="/">
+                {{ site.title }}
             </a>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="/#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
+    <header class="masthead">
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <h1 class="mx-auto my-0 text-uppercase">{{ page.title }}</h1>
+            </div>
+        </div>
+    </header>
+
     <section class="projects-section bg-light">
-        {{ content }}
-
-        <hr />
-
-        <p>
-            {{ page.content | number_of_words }} words.
-            Post tags: {{ page.tags | array_to_sentence_string }}.
-        </p>
-
-        <p>
-            {% assign date = page.date | date:"%Y-%m-%d" %}
-            {% assign title = page.url | append:'ext' | replace:'/ext','.md' | split:'/' | last %}
-            <a href="https://github.com/Vraid-Systems/Vraid-Systems.github.io/blob/master/_posts/{{date}}-{{title}}">Post content</a>
-            is licensed
-            <a href="http://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC 3.0</a>.
-        </p>
+        <div class="container">
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                {{ content }}
+            </div>
+        </div>
     </section>
+
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container">
+            <p>
+                {{ page.content | number_of_words }} words.
+                Post tags: {{ page.tags | array_to_sentence_string }}.
+            </p>
+
+            <p>
+                {% assign date = page.date | date:"%Y-%m-%d" %}
+                {% assign title = page.url | append:'ext' | replace:'/ext','.md' | split:'/' | last %}
+                <a href="https://github.com/Vraid-Systems/Vraid-Systems.github.io/blob/master/_posts/{{date}}-{{title}}">Post content</a>
+                is licensed
+                <a href="http://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC 3.0</a>.
+            </p>
+        </div>
+    </footer>
 </body>
