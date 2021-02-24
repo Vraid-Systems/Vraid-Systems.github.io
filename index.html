@@ -1,192 +1,187 @@
 ---
-description: Holistic business intelligence solutions powered by humans and machines
+description: Holistic technical education, mentorship, and business intelligence powered by humans and machines.
 layout: default
 title: Vraid Systems
 ---
 
-<body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                {{ page.title }}
-            </a>
+<section id="sidebar">
+    <div class="inner">
+        <nav>
+            <ul>
+                <li><a href="#welcome">Welcome</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
 
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+<div id="wrapper">
+    <section id="welcome" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.description }}</p>
         </div>
-    </nav>
+    </section>
 
-    <header class="masthead">
-        <div class="container d-flex h-100 align-items-center">
-            <div class="mx-auto text-center">
-                <h1 class="mx-auto my-0 text-uppercase">{{ page.title }}</h1>
-                <h2 class="text-white-50 mx-auto mt-2 mb-5">{{ page.description }}</h2>
-                <a class="btn btn-primary js-scroll-trigger" href="#contact">Get Started</a>
+    <section id="education" class="wrapper style2 fade-up">
+        <div class="inner">
+            <h2>Education</h2>
+            <p>
+                Choose from multiple membership options depending on the educational topics you are interested in.
+
+                From finance topics like cryptocurrency and passive income to tax optimization and business residency.
+                Technical development skills like pair programming and radical honesty.
+                Analysis and machine learning.
+            </p>
+
+            <div class="features">
+                <section>
+                    <span class="icon solid major fa-code"></span>
+                    <h3>Effective Pair Programming</h3>
+                    <p>Historical backgrounds / agile, a synchronous approach, asynchronous possibilities, helpful software</p>
+                </section>
+
+                <section>
+                    <span class="icon solid major fa-lock"></span>
+                    <h3>A primer on cryptocurrency</h3>
+                    <p>What is cryptocurrency? Where does it come from? What value does it have?</p>
+                </section>
+
+                <section>
+                    <span class="icon solid major fa-cog"></span>
+                    <h3>Sharpen the Saw: debugging</h3>
+                    <p>Every day we're in the code. Learn to slow down to save time.</p>
+                </section>
+
+                <section>
+                    <span class="icon solid major fa-desktop"></span>
+                    <h3>Successful remote working</h3>
+                    <p>Empathesizing with teammates. Considerate timezones. When are meetings a good idea?</p>
+                </section>
+
+                <section>
+                    <span class="icon solid major fa-link"></span>
+                    <h3>Machine learning</h3>
+                    <p>Where did it come from? Early neural nets. The mathematics we build on. Good problems to throw it at.</p>
+                </section>
+
+                <section>
+                    <span class="icon major fa-gem"></span>
+                    <h3>Building passive income</h3>
+                    <p>Tax loopholes, business shielding strategies, investment brokerages, limiting fees, cross border arbitrage</p>
+                </section>
             </div>
-        </div>
-    </header>
 
-    <section class="about-section text-center" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="text-white mb-4">Creative Thinking</h2>
-                    <p class="text-white-50">
-                        Every problem has multiple solutions,
-                        but knowing the right questions to arrive there can very often be the most challenging.<br />
-                        <br />
-                        Sometimes an intractable legal problem can be solved with software.
-                        Sometimes a conversation can open up a world of new opportunities.<br />
-                        <br />
-                        We understand that creative solutions require multiple perspectives.
+            <ul class="actions">
+                <li>
+                    <a href="https://learn.vraidsys.com/memberships" class="button">Learn more</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" class="wrapper style3 spotlights">
+        <section>
+            <img src="/images/wolfgang-hasselmann-rDQRiztYXkE-unsplash.jpg" alt="" data-position="bottom center" />
+            <div class="content">
+                <div class="inner">
+                    <h2>Custom forecasts</h2>
+                    <p>
+                        {{ page.title }}
+                        offers a full line of time series modeling tools from recurrent neural networks with
+                        <a href="https://www.tensorflow.org/learn">TensorFlow</a> to
+                        <a href="https://www.stat.berkeley.edu/~arturof/Teaching/STAT248/lab07_part1.html">Seasonal ARIMA</a>s,
+                        with the people to help you understand the results.
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section>
+            <img src="/images/wolfgang-hasselmann-2nlAfowoLA4-unsplash.jpg" alt="" data-position="bottom center" />
+            <div class="content">
+                <div class="inner">
+                    <h2>DeFi / FinTech consulting</h2>
+                    <p>
+                        Bypass arbitrary borders.
+                        Customize your Blockchain presence to meet your needs.
+                        Diversify your corporate treasury.
+                        <a href="https://github.com/Vraid-Systems/algorand-participation">Manage Algorand participation</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <img src="/images/wolfgang-hasselmann-Uek8V7vOSjA-unsplash.jpg" alt="" data-position="center center" />
+            <div class="content">
+                <div class="inner">
+                    <h2>Mentorship</h2>
+                    <p>
+                        Building relationships with technical teams.
+                        Career pivots and scary questions for software professionals.
+                        Emotional and resilience strategies.
+                        Presentation coaching.
+                        Resume feedback.
+                        Thinking big picture product and sales.
+                    </p>
+                </div>
+            </div>
+        </section>
     </section>
 
-    <section class="projects-section bg-light" id="projects">
-        <div class="container">
-            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="ui/img/bg-masthead.jpg" alt="" /></div>
-                <div class="col-xl-4 col-lg-5">
-                    <div class="featured-text text-center text-lg-left">
-                        <h4>Forecast trends</h4>
-                        <p class="text-black-50 mb-0">
-                            {{ page.title }}
-                            offers a full line of time series modeling tools from recurrent neural networks with
-                            <a href="https://www.tensorflow.org/learn">TensorFlow</a> to
-                            <a href="https://www.stat.berkeley.edu/~arturof/Teaching/STAT248/lab07_part1.html">Seasonal ARIMA</a>s,
-                            with the people to help you understand the results.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                <div class="col-lg-6"><img class="img-fluid" src="ui/img/demo-image-01.jpg" alt="" /></div>
-                <div class="col-lg-6">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Blockchain / Web 3.0</h4>
-                                <p class="mb-0 text-white-50">
-                                    Customize your Blockchain presence to meet your needs.
-                                    Diversify your corporate treasury.
-                                    Provision containers in the hybrid cloud.
-                                    <a href="https://github.com/Vraid-Systems/algorand-participation">Manage Algorand participation</a>.
-                                </p>
-                                <hr class="d-none d-lg-block mb-0 ml-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center no-gutters">
-                <div class="col-lg-6"><img class="img-fluid" src="ui/img/demo-image-02.jpg" alt="" /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Landscape analysis</h4>
-                                <p class="mb-0 text-white-50">
-                                    Set your business up for success. We assemble the right team
-                                    of localized forecasters, researchers, and legal experts
-                                    to navigate future opportunities.
-                                    Just-in-time logistics for controlled items.
-                                    Tax optimization.
-                                    Compliance automation.
-                                </p>
-                                <hr class="d-none d-lg-block mb-0 mr-0" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact-section bg-black" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fab fa-canadian-maple-leaf text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Canada</h4>
-                            <hr class="my-4" />
-                            <div class="small text-black-50">
-                                <a href="https://drive.google.com/file/d/1jvVcTaGWpbXzaVmLEdO8VJB0E-SoupJy/view?usp=sharing">Vraid Systems Ltd.</a><br />
+    <section id="contact" class="wrapper style1 fade-up">
+        <div class="inner">
+            <h2>Contact</h2>
+            <p>
+                Need more information on course contents, custom services, or our data products? Please let us know!
+            </p>
+            <div class="split style1">
+                <section>
+                    <ul class="contact">
+                        <li>
+                            <h3>Canada</h3>
+                            <span>
+                                Vraid Systems Ltd.<br />
                                 7-2070 Harvey Ave<br />
                                 Unit #230<br />
                                 Kelowna, BC V1Y 8P8<br />
-                                <br />
                                 <a href="mailto:ltd@vraidsys.com">ltd@vraidsys.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-flag-usa text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">USA</h4>
-                            <hr class="my-4" />
-                            <div class="small text-black-50">
-                                <a href="https://drive.google.com/file/d/1IUChy2gxHkEYZuBFNd1xO3QdyQ7CNyWu/view?usp=sharing">Vraid Systems LLC</a><br />
+                            </span>
+                        </li>
+
+                        <li>
+                            <h3>USA</h3>
+                            <span>
+                                Vraid Systems LLC<br />
                                 98 Wadsworth Blvd<br />
                                 #127-3148<br />
                                 Lakewood, CO 80226<br />
-                                <br />
                                 <a href="mailto:llc@vraidsys.com">llc@vraidsys.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-money-bill-wave text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Rates</h4>
-                            <hr class="my-4" />
-                            <div class="small text-black-50">
-                                Analysis &middot; 100-150 / hour<br />
-                                Data &middot; 130-190 / hour<br />
-                                Legal &middot; 200-300 / hour<br />
-                                Software &middot; 120-200 / hour<br />
-                                <br />
-                                Check, credit cards (with 3% fee), <a href="https://www.paxos.com/pax/">PAX</a>, <a href="https://www.circle.com/en/usdc">USDC</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="social d-flex justify-content-center">
-                <a class="mx-2" href="https://github.com/Vraid-Systems"><i class="fab fa-github"></i></a>
+                            </span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <ul class="contact">
+                        <li>
+                            <h3>Phone</h3>
+                            <span>+1 (651) 400-0338</span>
+                        </li>
+
+                        <li>
+                            <h3>Social</h3>
+                            <ul class="icons">
+                                <li><a href="https://github.com/Vraid-Systems" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                                <li><a href="https://www.linkedin.com/in/jzerbe" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </div>
     </section>
-
-    <footer class="footer bg-black small text-center text-white-50">
-        <div class="container">
-            Copyright {{ page.title }}
-        </div>
-    </footer>
-</body>
+</div>
