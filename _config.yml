@@ -1,4 +1,3 @@
 future: true
 permalink: /:year/:month/:title/
-plugins: [jekyll-redirect-from]
-title: Vraid Systems
+title: Vraid Systems Ltd.
