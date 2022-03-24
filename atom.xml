@@ -3,13 +3,13 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Vraid Systems Ltd.</title>
+    <title>Vraid Systems</title>
     <link href="https://vraidsys.com/atom.xml" rel="self" />
     <link href="https://vraidsys.com" />
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>https://vraidsys.com</id>
     <author>
-        <name>Vraid Systems Ltd.</name>
+        <name>Vraid Systems</name>
         <email>website@vraidsys.com</email>
         <uri>https://vraidsys.com</uri>
     </author>
