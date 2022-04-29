@@ -1,4 +1,4 @@
-# Vraid Systems Ltd.
+# Vraid Systems Limited
 
 [Jekyll](http://github.com/mojombo/jekyll) automatically generates this website
 from pushes to this GitHub repository.
