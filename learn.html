@@ -1,0 +1,43 @@
+---
+layout: default
+title: on-demand resources
+---
+
+<section id="sidebar">
+    <div class="inner">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#learn">Learn</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+<div id="wrapper">
+    <section id="learn" class="wrapper style3 spotlights">
+        {% assign posts_by_order = site.posts | sort: "custom_order" %}
+        {% for post in posts_by_order %}
+        <section>
+            <div class="content">
+                <div class="inner">
+                    <h2>{{ post.title }}</h2>
+                    <p>
+                        {{ post.tags | array_to_sentence_string }}
+                    </p>
+                    <p>
+                        {{ post.content | strip_html | truncatewords: 50 }}
+                    </p>
+                    <ul class="actions">
+                        <li>
+                            <a href="{{ post.url }}" class="button">
+                                {{ post.title }}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        {% endfor %}
+    </section>
+</div>
