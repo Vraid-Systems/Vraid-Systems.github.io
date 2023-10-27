@@ -6,7 +6,7 @@ tags:
 - Not Legal Advice
 - Employment
 - Paperwork
-title: Make remote working residency easy for your employer
+title: Remote working residency
 ---
 As an employee, you generally don't have to worry about much when it comes to government paperwork and compliance filings.
 Maybe a few hours at tax time, but nothing compared to your employer.
