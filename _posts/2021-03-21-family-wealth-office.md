@@ -1,7 +1,7 @@
 ---
 custom_order: 2
 layout: post
-published: false
+published: true
 tags:
 - Estate Planning
 - Not Legal Advice
@@ -204,7 +204,45 @@ For the US Internal Revenue Service:
 ## Utilizing different tax rates
 Even if you create a corporation or LLC in another location, this does not mean that all of your income will
 magically be taxed at the lower rate, but this is not difficult. At a high level:
-1. Get a street address in another location with [Anytime Mailbox](https://www.amtrdb32k.com/3DB5WSS/55M6S/),
+1. Get a street address in another location with [Anytime Mailbox]({{ site.program.business.anytimemb }}) or [iPostal1]({{ site.program.business.ipostal1 }}),
 which you will use for your business address and [registered agent address](https://howtostartanllc.com/what-is-a-registered-agent).
 Alternatively, there are plenty of companies that offer these services for you and will manage everything if you pay them higher "all inclusive" fees.
-2. TODO
+2. Create a holding LLC in the low tax jurisdiction. LLCs usually have lower filing fees, less paperwork
+than C-corporations, nor do you have to
+[pay taxes on the business entity's earnings and what you elect to pay yourself as your personal income](https://www.wolterskluwer.com/en/expert-insights/s-corp-vs-c-corp-differences-benefits).
+3. Transfer the ownership of all assets (intellectual, tangible, or otherwise) from your existing business to the new business in the low tax jurisdiction.
+4. Have the existing business pay significant rent or royalties to the holding company thereby wiping out the tax burden of the existing company.
+Think about doing this across country borders? Check out the [Multi Currency Account from Wise]({{ site.program.business.wise }}).
+5. [Elect to have the holding LLC taxed as a corporation](https://www.irs.gov/businesses/small-businesses-self-employed/llc-filing-as-a-corporation-or-partnership)
+so all of the profits are retained in the low tax jurisdiction, but beware this might set you up for
+[personal holding company penalties](https://www.henssler.com/avoiding-personal-holding-company-tax/https://www.henssler.com/avoiding-personal-holding-company-tax/).
+It might be easier to spend down most of the revenue on an
+[American Express company card]({{ site.program.card.amex }}) and let the remaining profits continue to pass through.
+
+For a deeper example with the state of Wyoming, I highly recommend reading: <https://www.northwestregisteredagent.com/start-a-business/wyoming/tax-benefits>
+
+## Business deductions
+Earlier in the course we talked about running your household as a business, more specifically a _family office_.
+Managing your family’s wealth then becomes a business and allows us to take advantage of all kinds business deductions
+for the purposes of keeping your family successful, strong, healthy, and wealthy.
+
+All the legals fees for creating a family business are tax deductions.
+Maintaining a home office and your virtual office becomes a tax deduction. Telecom services.
+Paying employees (aka family members). Interest on purchases to increase your family's wealth.
+Insurance. Family meetings. The list goes on:
+- <https://turbotax.intuit.com/tax-tips/small-business-taxes/taking-business-tax-deductions/L5RueYPVS>
+- <https://www.bdc.ca/en/articles-tools/money-finance/manage-finances/tax-deductible-expenses>
+
+Just remember you need to show profit in at least 3 of the last 5 years: <https://www.thebalancemoney.com/is-this-business-for-real-or-is-it-a-hobby-397675>
+
+<hr />
+
+## Practicum
+Please contact us for assistance in setting up your family wealth office.
+We will guide you through the exact steps and offer templates:
+1. Opening a virtual office
+2. Filing with the Secretary of State
+3. Filing with the IRS
+4. Creating an operating agreement
+5. Notarizing business documents
+6. Banking

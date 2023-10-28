@@ -26,8 +26,8 @@ the services of an [Employer of Record](https://boundlesshq.com/blog/employment/
 to be in compliance with government regulations because of you, the employee.
 
 Our suggestion: use a virtual mailbox service to make things easy for your employer by maintaining an address 
-in your original employment location. Services like [Anytime Mailbox](https://www.amtrdb32k.com/3DB5WSS/55M6S/),
-[iPostal1](https://ipostal1.com/?ref=4037), USPS PO Boxes with
+in your original employment location. Services like [Anytime Mailbox]({{ site.program.business.anytimemb }}),
+[iPostal1]({{ site.program.business.ipostal1 }}), USPS PO Boxes with
 [informed delivery](https://www.usps.com/manage/informed-delivery.htm) + real street address - can be used depending
 on how you plan to remote work. Just be sure that your 
 final address isn't flagged as a [Commercial Mailing Receiving Agency](https://www.smarty.com/docs/cmra)
