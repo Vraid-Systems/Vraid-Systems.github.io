@@ -22,7 +22,8 @@ The best spots in North America to register a vehicle by odd fringe benefits.
 On top of a $3k (for 2022) [Permanent Fund Dividend for being a resident](https://pfd.alaska.gov/).
 - __Montana__: Permanent registration (pay one fee and never again) of
 [passenger vehicles 11 years or older state-wide](https://dojmt.gov/driving/vehicle-title-and-registration/#lightvehiclepr).
-Also no sales tax in Montana, saving you on purchase fees. Also also very low registration fees.
+Also no sales tax in Montana, saving you on purchase fees. Also also
+[low registration fees](https://leg.mt.gov/content/publications/fiscal/2023-Interim/Aug-2021/Vehicle-Fee-Brochure.pdf).
 
 ### Central America
 - __Panama__: Modern, friendly, and a strong democracy (from a memory of a recent autocrat).

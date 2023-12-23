@@ -177,12 +177,12 @@ For a provincial home offering a balance of lower taxes, better services,
 and [automated services](https://www.bcregistry.ca/), make your base in British Columbia.
 
 Or do what I do and have an entity domiciled and registered,
-[350CAD and 45CAD renewal](https://www.corporateonline.gov.bc.ca/WebHelp/fee_schedule.htm),
+[350CAD registration and 45CAD renewal](https://www.corporateonline.gov.bc.ca/WebHelp/fee_schedule.htm),
 in British Columbia, with a location in Alberta as well. Alberta has an automated and cheap (14CAD)
 [online registration](https://newwestregistration.alberta.ca/) to support businesses under the
 [New West Partnership Trade Agreement](https://www2.gov.bc.ca/gov/content/employment-business/business/managing-a-business/permits-licences/businesses-incorporated-companies/new-west-partnership-trade-agreement).
 You pay income tax on where the money is made. Compare that to direct registration in Alberta which costs
-[300-500CAD and 70-90CAD a year](https://www.ownr.co/blog/how-to-incorporate-in-alberta/)
+[300-500CAD registration and 70-90CAD a year](https://www.ownr.co/blog/how-to-incorporate-in-alberta/)
 in renewal fees depending on which service provider you find.
 
 Be sure to use [BizPal](https://www.bizpal.ca/) for a comprehensive list of licenses you may need.
