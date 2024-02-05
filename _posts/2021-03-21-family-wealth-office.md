@@ -239,7 +239,7 @@ Just remember you need to show profit in at least 3 of the last 5 years: <https:
 
 ## Practicum
 Please contact us for assistance in setting up your family wealth office.
-We will guide you through the exact steps and offer templates:
+We will guide you through the exact steps and offer templates for:
 1. Opening a virtual office
 2. Filing with the Secretary of State
 3. Filing with the IRS

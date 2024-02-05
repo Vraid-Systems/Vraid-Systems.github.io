@@ -80,7 +80,7 @@ a lender could not enforce an "acceleration" or "due on sale" clause: <https://w
 In Colorado, your interest rate cannot go up by more than 1% for a sale: <https://law.justia.com/codes/colorado/2021/title-38/article-30/section-38-30-165/>
 
 ### Long-term solution
-I find the timing of this legislation to recoup Medicaid long term care payments suspicious.
+The timing of this legislation to recoup Medicaid long term care payments suspicious.
 From 1981 to 1988 the marginal tax rate on the wealthy at the US national level dropped precipitously from
 [70 to 28 percent](https://taxfoundation.org/historical-income-tax-rates-brackets/).
 As shown in

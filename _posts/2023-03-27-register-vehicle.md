@@ -23,7 +23,8 @@ On top of a $3k (for 2022) [Permanent Fund Dividend for being a resident](https:
 - __Montana__: Permanent registration (pay one fee and never again) of
 [passenger vehicles 11 years or older state-wide](https://dojmt.gov/driving/vehicle-title-and-registration/#lightvehiclepr).
 Also no sales tax in Montana, saving you on purchase fees. Also also
-[low registration fees](https://leg.mt.gov/content/publications/fiscal/2023-Interim/Aug-2021/Vehicle-Fee-Brochure.pdf).
+[low registration fees](https://leg.mt.gov/content/publications/fiscal/2023-Interim/Aug-2021/Vehicle-Fee-Brochure.pdf),
+especially in Flathead County.
 
 ### Central America
 - __Panama__: Modern, friendly, and a strong democracy (from a memory of a recent autocrat).
@@ -31,3 +32,5 @@ Also no sales tax in Montana, saving you on purchase fees. Also also
 [5% for excise tax on cars](https://kpmg.com/us/en/home/insights/2022/06/tnf-panama-exemption-from-selective-consumption-tax-for-electric-vehicles.html).
 Registration is [$20 for the inspection and $20 for the municipal paperwork](https://www.chasingpanama.blog/2019/12/04/vehicle-registration-in-panama/).
 An additional [$100 for registration through an entity](https://www.relofirm.com/corporation_vehicle_registration/).
+
+Need help setting up a business entity to register your vehicle in any of these jurisdictions? Send us a note!

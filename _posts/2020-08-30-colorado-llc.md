@@ -14,7 +14,7 @@ In an economic environment where [real wages have stagnated](https://www.pewrese
 and regular employees are paying a [larger proportion of national taxes](https://www.cbpp.org/research/federal-tax/policy-basics-where-do-federal-tax-revenues-come-from)
 than [shell companies for the rich](https://www.icij.org/investigations/panama-papers/),
 why not play the same games until the legislation catches up?
-By no means do I support an unfair tax system, just trying to let the common people take advantage of the loopholes,
+By no means do we support an unfair tax system, just trying to let the common people take advantage of the loopholes,
 while we try to reverse the [Citizen United](https://www.brennancenter.org/our-work/research-reports/citizens-united-explained) evils of our past.
 
 ## Creating a new legal entity
@@ -66,11 +66,11 @@ To save on taxes, you will need to transfer ownership of accounts and assets to 
 - Bank statement in the company’s name (with your business address)
 - In-depth description of the business activity (anti-money laundering reasons)
 
-Given my tax jurisdiction and wealth, all of my startup fees were covered by the tax savings in the first month.
+Depending on the tax jurisdiction and wealth, all of your startup fees could be covered by the tax savings in the first month.
 
 Now given that there is no public market for these LLC assets, [gifting membership interests to your heirs while you still are the LLC manager means hefty asset write-downs](https://www.investopedia.com/articles/personal-finance/071514/using-llc-estate-planning.asp#how-a-family-llc-works).
 
 ## Going deeper
-Want to learn more? Want no business license fees and no income taxes? Check out my online
+Want to learn more? Want no business license fees and no income taxes? Check out our online
 [family wealth office](https://vraidsys.com/2021/03/family-wealth-office/)
 write up for the inside scoop on Wyoming!
