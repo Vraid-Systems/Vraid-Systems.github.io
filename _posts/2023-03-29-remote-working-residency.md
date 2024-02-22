@@ -1,25 +1,20 @@
 ---
+author: Jason Zerbe
 custom_order: 1
 layout: post
 published: true
 tags:
-- Not Legal Advice
 - Employment
 - Paperwork
+- Residency
 title: Remote working residency
 ---
 As an employee, you generally don't have to worry about government paperwork and compliance filings.
 Maybe a few hours at tax time, but nothing compared to your employer.
 
-For those of us who have never had a permanent home - renters, those of a vanning persuasion, ship mates - 
-we have always been on the short end of the stick when it comes to interacting with institutions. The ever 
-present "your address isn't valid" frustration. For those of you newly minted employed vagabonds: your address means 
-quite a bit and that makes a world of difference to your employer.
-
 You may receive notices from your employer like - "you may work internationally for up to one month" or "as long 
 as you stay within your original employment state" - this is because permanently moving or working in different 
-province, state, or country for an extended time is a big compliance headache for your employer. Don't become a 
-headache! You'll get cut.
+province, state, or country for an extended time is a big compliance headache for your employer.
 
 If an employer has a permanent employee in a region, the employer will have to create a local entity or utilize 
 the services of an [Employer of Record](https://boundlesshq.com/blog/employment/what-is-an-employer-of-record/)

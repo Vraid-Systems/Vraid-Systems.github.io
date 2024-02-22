@@ -1,10 +1,10 @@
 ---
+author: Jason Zerbe
 custom_order: 3
 layout: post
 published: true
 tags:
 - Estate Planning
-- Not Legal Advice
 - Tax Optimization
 title: Family wealth office
 ---

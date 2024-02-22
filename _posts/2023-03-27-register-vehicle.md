@@ -1,9 +1,9 @@
 ---
+author: Jason Zerbe
 custom_order: 1
 layout: post
 published: true
 tags:
-- Not Legal Advice
 - Vagabond
 - Vehicle
 title: Where to register a vehicle

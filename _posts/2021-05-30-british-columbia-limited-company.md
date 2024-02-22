@@ -1,12 +1,12 @@
 ---
+author: Jason Zerbe
 custom_order: 2
 layout: post
 published: true
 tags:
+- Canada tax policy
 - British Columbia
 - Limited Company
-- Canada tax policy
-- Not Legal Advice
 title: The flexibility of a British Columbia Limited Company
 ---
 ## Why British Columbia?
