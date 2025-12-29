@@ -1,104 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Vraid Systems | Logistics, Engineered for Certainty</title>
+---
+layout: default
+---
 
-    <!-- Favicon -->
-    <link href="favicon.svg" rel="icon" type="image/svg+xml">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Public+Sans:wght@300;400;500&family=Roboto+Mono:wght@400;500&display=swap"
-          rel="stylesheet">
-
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Tailwind Configuration -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        paper: '#FAFAFA',
-                        obsidian: '#121212',
-                        'steel-blue': '#465262',
-                        'mint-glass': '#E8F5F2',
-                        'ghost-gray': '#E0E0E0',
-                    },
-                    fontFamily: {
-                        sans: ['Public Sans', 'sans-serif'],
-                        heading: ['Inter', 'sans-serif'],
-                        mono: ['Roboto Mono', 'monospace'],
-                    },
-                    spacing: {
-                        '128': '32rem',
-                    }
-                }
-            }
-        }
-    </script>
-
-    <style>
-        /* Custom Utilities for Blueprint aesthetic */
-        body {
-            background-color: #FAFAFA;
-            color: #121212;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        /* The 0.5pt border look */
-        .hairline-border {
-            border: 1px solid #E0E0E0; /* Standard screens */
-        }
-
-        @media (min-resolution: 2dppx) {
-            .hairline-border {
-                border-width: 0.5px;
-            }
-        }
-
-        .hairline-top {
-            border-top: 1px solid #E0E0E0;
-        }
-
-        .hairline-bottom {
-            border-bottom: 1px solid #E0E0E0;
-        }
-
-        .hairline-right {
-            border-right: 1px solid #E0E0E0;
-        }
-
-        /* Smooth scrolling */
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* Typography Override Helpers */
-        .font-feature-settings {
-            font-feature-settings: "cv11", "ss01";
-        }
-
-        /* Subtle Fade In Animation */
-        .fade-in-up {
-            animation: fadeInUp 0.8s ease-out forwards;
-            opacity: 0;
-            transform: translateY(20px);
-        }
-
-        @keyframes fadeInUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
-</head>
 <body class="flex flex-col min-h-screen">
 
 <!-- Navigation -->
@@ -116,11 +19,11 @@
         <div class="hidden md:flex items-center gap-8 font-sans text-sm text-obsidian/80">
             <a class="hover:text-steel-blue transition-colors" href="#solutions">Solutions</a>
             <a class="hover:text-steel-blue transition-colors" href="#industries">Industries</a>
-            <a class="hover:text-steel-blue transition-colors" href="#about">About</a>
-            <a class="px-4 py-2 border border-steel-blue/30 rounded text-steel-blue hover:bg-steel-blue hover:text-white transition-all duration-300 text-xs font-medium tracking-wide uppercase"
+            <a class="hover:text-steel-blue transition-colors" href="#contact">Contact</a>
+            <!--<a class="px-4 py-2 border border-steel-blue/30 rounded text-steel-blue hover:bg-steel-blue hover:text-white transition-all duration-300 text-xs font-medium tracking-wide uppercase"
                href="#">
                 Secure Client Portal
-            </a>
+            </a>-->
         </div>
 
         <!-- Mobile Menu Button (Icon only) -->
@@ -140,8 +43,8 @@
         <div class="flex flex-col p-6 gap-4 text-sm">
             <a class="block py-2" href="#solutions">Solutions</a>
             <a class="block py-2" href="#industries">Industries</a>
-            <a class="block py-2" href="#about">About</a>
-            <a class="block py-2 text-steel-blue font-medium" href="#">Secure Client Portal</a>
+            <a class="block py-2" href="#contact">Contact</a>
+            <!--<a class="block py-2 text-steel-blue font-medium" href="#">Secure Client Portal</a>-->
         </div>
     </div>
 </nav>
@@ -151,11 +54,11 @@
     <div class="max-w-4xl relative z-10 fade-in-up" style="animation-delay: 0.1s;">
         <!-- Metadata Tag -->
         <div class="font-mono text-xs text-steel-blue mb-6 tracking-wider uppercase bg-mint-glass inline-block px-2 py-1 rounded-sm">
-            System Status: Online | Ref: VS-2025
+            System Status: Online | Audit Hash: {{ site.commit_hash }}
         </div>
 
         <h1 class="font-heading font-semibold text-5xl md:text-7xl leading-[1.1] text-obsidian mb-8 tracking-tight">
-            Logistics, engineered for certainty.
+            {{ site.description }}
         </h1>
 
         <p class="font-sans text-lg md:text-xl text-obsidian/70 leading-relaxed max-w-2xl mb-10 font-light">
@@ -189,7 +92,7 @@
                 <h3 class="font-heading font-semibold text-sm uppercase tracking-wide mb-2 text-steel-blue">The Vraid
                     Model</h3>
                 <p class="text-sm leading-relaxed">
-                    We use proprietary AI and 15 years of data engineering to absorb the volatility. You get one price
+                    We use AI models and data engineering to absorb the volatility. You get one price
                     for the entire project, guaranteed.
                 </p>
             </div>
@@ -275,7 +178,7 @@
                 <div class="font-mono text-xs text-steel-blue mb-2">SECTOR 03</div>
                 <h3 class="font-heading font-semibold text-xl mb-3">Agriculture & Ranching</h3>
                 <p class="text-sm text-obsidian/70 leading-relaxed opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-500 transform translate-y-0 md:translate-y-4 group-hover:translate-y-0">
-                    Bringing software-level precision to the physical scale of the American ranch.
+                    Bringing software-level precision to the physical scale of the ranch and reserve.
                 </p>
             </div>
         </div>
@@ -310,17 +213,17 @@
                 your logistics just work.
             </p>
             <div class="h-px w-full bg-ghost-gray"></div>
-            <div class="flex gap-8 mt-8 font-mono text-xs text-steel-blue">
+            <!--<div class="flex gap-8 mt-8 font-mono text-xs text-steel-blue">
                 <div>AI: ACTIVE</div>
                 <div>LATENCY: < 20MS</div>
                 <div>UPTIME: 99.99%</div>
-            </div>
+            </div>-->
         </div>
     </div>
 </section>
 
 <!-- Footer: The "Squeaky Clean" Image -->
-<footer class="border-t border-ghost-gray bg-white pt-16 pb-12 px-6">
+<footer class="border-t border-ghost-gray bg-white pt-16 pb-12 px-6" id="contact">
     <div class="max-w-7xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <!-- Left: Brand -->
@@ -330,7 +233,8 @@
                     <span class="w-1 h-1 rounded-full bg-steel-blue mx-0.5"></span>
                     <span>Systems</span>
                 </div>
-                <p class="font-sans text-sm text-obsidian/60">Built for the long haul.</p>
+                <p class="font-sans text-sm text-obsidian/60">{{ site.slug }}</p>
+                <p class="font-sans text-sm text-obsidian/60">{{ site.contact }}</p>
             </div>
 
             <!-- Center: Locations -->
@@ -340,6 +244,7 @@
                     AB <span class="text-ghost-gray mx-1">|</span>
                     BC <span class="text-ghost-gray mx-1">|</span>
                     CO <span class="text-ghost-gray mx-1">|</span>
+                    MP <span class="text-ghost-gray mx-1">|</span>
                     MT <span class="text-ghost-gray mx-1">|</span>
                     WY
                 </p>
@@ -349,23 +254,22 @@
             <div class="md:text-right">
                 <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">Registration</h4>
                 <div class="font-mono text-xs text-obsidian/60 space-y-2">
+                    <p>NACE 62.02, 52.29</p>
                     <p>NAICS 541511, 488510</p>
-                    <p>NACE H52.29</p>
                 </div>
             </div>
         </div>
 
         <!-- Copyright Line -->
         <div class="border-t border-ghost-gray pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p class="font-mono text-[10px] text-obsidian/40 uppercase">© 2025 Vraid Systems Inc. All Rights
+            <p class="font-mono text-[10px] text-obsidian/40 uppercase">&copy; Vraid Systems. All Rights
                 Reserved.</p>
-            <div class="flex gap-6 font-sans text-xs text-obsidian/60">
+            <!--<div class="flex gap-6 font-sans text-xs text-obsiH52.29dian/60">
                 <a class="hover:text-steel-blue transition-colors" href="#">Privacy</a>
                 <a class="hover:text-steel-blue transition-colors" href="#">Terms of Service</a>
-            </div>
+            </div>-->
         </div>
     </div>
 </footer>
 
 </body>
-</html>

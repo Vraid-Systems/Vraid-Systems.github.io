@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>{{ site.title }} | {{ site.description }}</title>
+
+    <!-- Favicon -->
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Public+Sans:wght@300;400;500&family=Roboto+Mono:wght@400;500&display=swap"
+          rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        paper: '#FAFAFA',
+                        obsidian: '#121212',
+                        'steel-blue': '#465262',
+                        'mint-glass': '#E8F5F2',
+                        'ghost-gray': '#E0E0E0',
+                    },
+                    fontFamily: {
+                        sans: ['Public Sans', 'sans-serif'],
+                        heading: ['Inter', 'sans-serif'],
+                        mono: ['Roboto Mono', 'monospace'],
+                    },
+                    spacing: {
+                        '128': '32rem',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Utilities for Blueprint aesthetic */
+        body {
+            background-color: #FAFAFA;
+            color: #121212;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* The 0.5pt border look */
+        .hairline-border {
+            border: 1px solid #E0E0E0; /* Standard screens */
+        }
+
+        @media (min-resolution: 2dppx) {
+            .hairline-border {
+                border-width: 0.5px;
+            }
+        }
+
+        .hairline-top {
+            border-top: 1px solid #E0E0E0;
+        }
+
+        .hairline-bottom {
+            border-bottom: 1px solid #E0E0E0;
+        }
+
+        .hairline-right {
+            border-right: 1px solid #E0E0E0;
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Typography Override Helpers */
+        .font-feature-settings {
+            font-feature-settings: "cv11", "ss01";
+        }
+
+        /* Subtle Fade In Animation */
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+{{ content }}
+
+</html>
