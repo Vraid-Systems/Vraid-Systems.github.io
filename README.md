@@ -1,10 +1,7 @@
-# Vraid Systems Limited
+# Vraid Systems
 
 [Jekyll](http://github.com/mojombo/jekyll) automatically generates this website
 from pushes to this GitHub repository.
-
-[hyperspace theme](https://html5up.net/hyperspace) is licensed under
-[Creative Commons Attribution 3.0 Unported](http://creativecommons.org/licenses/by/3.0/).
 
 ## Development
 1. `sudo apt install build-essential ruby ruby-bundler ruby-dev`
