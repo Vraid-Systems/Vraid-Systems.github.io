@@ -100,6 +100,56 @@
     </style>
 </head>
 
+<body class="flex flex-col min-h-screen">
+
 {{ content }}
+
+<footer class="border-t border-ghost-gray bg-white pt-16 pb-12 px-6" id="contact">
+    <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div class="flex flex-col gap-4">
+                <div class="font-heading font-semibold text-lg text-obsidian flex items-center gap-1">
+                    <span>Vraid</span>
+                    <span class="w-1 h-1 rounded-full bg-steel-blue mx-0.5"></span>
+                    <span>Systems</span>
+                </div>
+                <p class="font-sans text-sm text-obsidian/60">{{ site.slug }}</p>
+                <p class="font-sans text-sm text-obsidian/60"><a href="mailto:{{ site.contact }}">{{ site.contact }}</a></p>
+            </div>
+
+            <div class="md:text-center">
+                <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">ISO 3166-2</h4>
+                <p class="font-sans text-sm text-obsidian/80">
+                    CA-AB <span class="text-ghost-gray mx-1">|</span>
+                    CA-BC <span class="text-ghost-gray mx-1">|</span>
+                    PL-12 <span class="text-ghost-gray mx-1">|</span>
+                    US-CO <span class="text-ghost-gray mx-1">|</span>
+                    US-MT <span class="text-ghost-gray mx-1">|</span>
+                    US-WY
+                </p>
+            </div>
+
+            <div class="md:text-right">
+                <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">Registration</h4>
+                <div class="font-mono text-xs text-obsidian/60 space-y-2">
+                    <p>NACE 62.02, 52.29</p>
+                    <p>NAICS 541511, 488510</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-ghost-gray pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="font-mono text-[10px] text-obsidian/40 uppercase">
+                &copy; Vraid Systems. All Rights Reserved.
+            </p>
+            <!--<div class="flex gap-6 font-sans text-xs text-obsiH52.29dian/60">
+                <a class="hover:text-steel-blue transition-colors" href="#">Privacy</a>
+                <a class="hover:text-steel-blue transition-colors" href="#">Terms of Service</a>
+            </div>-->
+        </div>
+    </div>
+</footer>
+
+</body>
 
 </html>
