@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>{{ site.title }} | {{ site.description }}</title>
+    {% assign current_lang = page.lang | default: "en" %}
+    <title>{{ site.title }} | {{ site.description[current_lang] }}</title>
 
     <!-- Favicon -->
     <link href="/favicon.svg" rel="icon" type="image/svg+xml">
@@ -113,17 +114,16 @@
                     <span class="w-1 h-1 rounded-full bg-steel-blue mx-0.5"></span>
                     <span>Systems</span>
                 </div>
-                <p class="font-sans text-sm text-obsidian/60">{{ site.slug }}</p>
+                <p class="font-sans text-sm text-obsidian/60">{{ site.slug[current_lang] }}</p>
                 <p class="font-sans text-sm text-obsidian/60"><a href="mailto:{{ site.contact }}">{{ site.contact }}</a></p>
             </div>
 
             <div class="md:text-center">
-                <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">ISO 3166-1</h4>
+                <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">ISO 639-1</h4>
                 <p class="font-sans text-sm text-obsidian/80">
-                    CA <span class="text-ghost-gray mx-1">|</span>
-                    PL <span class="text-ghost-gray mx-1">|</span>
-                    SG <span class="text-ghost-gray mx-1">|</span>
-                    US
+                    <a href="/index.html">en</a> <span class="text-ghost-gray mx-1">|</span>
+                    <a href="/es.html">es</a> <span class="text-ghost-gray mx-1">|</span>
+                    <a href="/ru.html">ru</a>
                 </p>
             </div>
 
