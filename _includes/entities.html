@@ -1,0 +1,41 @@
+{% assign t = site.data.i18n[current_lang] %}
+<section class="py-24 px-6 max-w-7xl mx-auto w-full" id="entities">
+    <div class="font-mono text-xs text-steel-blue mb-4 uppercase tracking-wider">{{ t.entities_kicker }}</div>
+    <h2 class="font-heading font-semibold text-3xl md:text-4xl text-obsidian mb-6">{{ t.entities_title }}</h2>
+    <p class="font-sans text-lg text-obsidian/70 leading-relaxed max-w-2xl mb-12 font-light">{{ t.entities_intro }}</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-ghost-gray border border-ghost-gray">
+        {% for e in site.data.entities %}
+        {% assign form_key = 'form_' | append: e.form %}
+        <div class="bg-paper p-8">
+            <div class="font-mono text-xs text-steel-blue mb-2 uppercase">{{ e.jurisdiction }}</div>
+            <h3 class="font-heading font-semibold text-xl mb-1">{{ e.legal_name }}</h3>
+            <p class="text-sm text-obsidian/60 mb-6">{{ t[form_key] }} · {{ t.established }} {{ e.established }}</p>
+
+            <dl class="text-sm space-y-2">
+                <div class="flex flex-col sm:flex-row sm:gap-2">
+                    <dt class="text-obsidian/60 sm:w-48 shrink-0">{{ t.bids_for }}</dt>
+                    <dd class="text-obsidian">{{ t[e.serves] }}</dd>
+                </div>
+                {% for r in e.registry %}
+                <div class="flex flex-col sm:flex-row sm:gap-2">
+                    <dt class="text-obsidian/60 sm:w-48 shrink-0">{{ t[r.label] }}</dt>
+                    <dd class="font-mono text-obsidian">{{ r.value }}</dd>
+                </div>
+                {% endfor %}
+                <div class="flex flex-col sm:flex-row sm:gap-2">
+                    <dt class="text-obsidian/60 sm:w-48 shrink-0">{% if e.address_is_mailing %}{{ t.mailing_address }}{% else %}{{ t.address }}{% endif %}</dt>
+                    <dd class="text-obsidian">{{ e.address }}</dd>
+                </div>
+                <div class="flex flex-col sm:flex-row sm:gap-2">
+                    <dt class="text-obsidian/60 sm:w-48 shrink-0">{{ t.phone }}</dt>
+                    <dd><a class="text-obsidian hover:text-steel-blue" href="tel:{{ e.phone | remove: '-' }}">{{ e.phone }}</a></dd>
+                </div>
+            </dl>
+            {% if e.note %}
+            <p class="text-xs text-obsidian/50 mt-6">{{ t[e.note] }}</p>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</section>

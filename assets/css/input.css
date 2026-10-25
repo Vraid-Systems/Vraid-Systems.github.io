@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #FAFAFA;
+    color: #121212;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* The 0.5pt border look */
+.hairline-border { border: 1px solid #E0E0E0; }
+@media (min-resolution: 2dppx) {
+    .hairline-border { border-width: 0.5px; }
+}
+.hairline-top { border-top: 1px solid #E0E0E0; }
+.hairline-bottom { border-bottom: 1px solid #E0E0E0; }
+.hairline-right { border-right: 1px solid #E0E0E0; }
+
+html { scroll-behavior: smooth; }
+/* Keep anchored headings clear of the fixed nav */
+section[id], footer[id] { scroll-margin-top: 5rem; }
+
+.font-feature-settings { font-feature-settings: "cv11", "ss01"; }
+
+.fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+@keyframes fadeInUp {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .fade-in-up { animation: none; opacity: 1; transform: none; }
+}

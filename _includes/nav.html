@@ -1,0 +1,57 @@
+{% assign t = site.data.i18n[current_lang] %}
+{% if current_lang == 'en' %}{% assign home = '/' %}{% else %}{% assign home = '/' | append: current_lang | append: '.html' %}{% endif %}
+<nav class="w-full fixed top-0 z-50 bg-paper/95 backdrop-blur-sm hairline-bottom">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+        <a class="font-heading font-semibold text-xl tracking-tight text-obsidian flex items-center gap-1 group"
+           href="{{ home }}">
+            <span class="group-hover:text-steel-blue transition-colors">Vraid</span>
+            <span class="w-1.5 h-1.5 rounded-full bg-steel-blue mx-0.5"></span>
+            <span class="group-hover:text-steel-blue transition-colors">Systems</span>
+        </a>
+
+        <div class="hidden md:flex items-center gap-8 font-sans text-sm text-obsidian/80">
+            <a class="hover:text-steel-blue transition-colors" href="{{ home }}#solutions">{{ t.nav_solutions }}</a>
+            <a class="hover:text-steel-blue transition-colors" href="{{ home }}#industries">{{ t.nav_industries }}</a>
+            <a class="hover:text-steel-blue transition-colors" href="{{ home }}#terms">{{ t.nav_terms }}</a>
+            <a class="hover:text-steel-blue transition-colors" href="{{ home }}#entities">{{ t.nav_entities }}</a>
+            <a class="hover:text-steel-blue transition-colors" href="#contact">{{ t.nav_contact }}</a>
+        </div>
+
+        <button aria-controls="mobile-menu" aria-expanded="false" aria-label="{{ t.menu }}"
+                class="md:hidden text-obsidian p-2" id="mobile-menu-button" type="button">
+            <svg aria-hidden="true" fill="none" height="24" stroke="currentColor" stroke-linecap="round"
+                 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"
+                 xmlns="http://www.w3.org/2000/svg">
+                <line x1="3" x2="21" y1="12" y2="12"></line>
+                <line x1="3" x2="21" y1="6" y2="6"></line>
+                <line x1="3" x2="21" y1="18" y2="18"></line>
+            </svg>
+        </button>
+    </div>
+
+    <div class="hidden md:hidden bg-paper border-b border-ghost-gray absolute w-full" id="mobile-menu">
+        <div class="flex flex-col p-6 gap-4 text-sm">
+            <a class="block py-2" href="{{ home }}#solutions">{{ t.nav_solutions }}</a>
+            <a class="block py-2" href="{{ home }}#industries">{{ t.nav_industries }}</a>
+            <a class="block py-2" href="{{ home }}#terms">{{ t.nav_terms }}</a>
+            <a class="block py-2" href="{{ home }}#entities">{{ t.nav_entities }}</a>
+            <a class="block py-2" href="#contact">{{ t.nav_contact }}</a>
+        </div>
+    </div>
+</nav>
+<script>
+    (function () {
+        var button = document.getElementById('mobile-menu-button');
+        var menu = document.getElementById('mobile-menu');
+        function setOpen(open) {
+            menu.classList.toggle('hidden', !open);
+            button.setAttribute('aria-expanded', open ? 'true' : 'false');
+        }
+        button.addEventListener('click', function () {
+            setOpen(menu.classList.contains('hidden'));
+        });
+        menu.addEventListener('click', function (e) {
+            if (e.target.tagName === 'A') setOpen(false);
+        });
+    })();
+</script>
