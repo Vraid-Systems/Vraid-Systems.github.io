@@ -1,0 +1,26 @@
+---
+lang: en
+layout: default
+title: Privacy
+summary: How Vraid Systems handles information sent through this website and by email.
+---
+{% assign current_lang = "en" %}
+{% assign t = site.data.i18n[current_lang] %}
+{% include nav.html %}
+
+<main class="pt-32 pb-24 md:pt-40 px-6 max-w-3xl mx-auto w-full font-sans text-obsidian/80 leading-relaxed">
+    <h1 class="font-heading font-semibold text-4xl text-obsidian mb-8">Privacy</h1>
+
+    <p class="mb-6">This site has no analytics, no advertising tags, no tracking cookies, and no forms. It is a static page served by GitHub Pages, which keeps standard server logs under <a class="underline hover:text-steel-blue" href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. Fonts load from Google Fonts.</p>
+
+    <h2 class="font-heading font-semibold text-xl text-obsidian mt-10 mb-4">What you send us</h2>
+    <p class="mb-6">When you email us a request, a solicitation, or a line sheet, we use it to quote, fulfill, and invoice that order, and to keep the records that tax law and our public-sector contracts require. We do not sell it or use it for marketing lists.</p>
+
+    <h2 class="font-heading font-semibold text-xl text-obsidian mt-10 mb-4">Who sees it</h2>
+    <p class="mb-6">Your request is shared only with the suppliers and carriers needed to fill it, and only the parts they need (for example, a part number and a ship-to address). We use business email, accounting, and automation tools to process orders, including AI tools that read incoming requests.</p>
+
+    <h2 class="font-heading font-semibold text-xl text-obsidian mt-10 mb-4">Questions or deletion requests</h2>
+    <p class="mb-6">Email <a class="underline hover:text-steel-blue" href="mailto:{{ site.contact }}">{{ site.contact }}</a>. We will tell you what we hold and delete anything we are not required to keep.</p>
+
+    <p class="text-sm text-obsidian/50 mt-12">Last updated {{ site.time | date: '%B %Y' }}.</p>
+</main>

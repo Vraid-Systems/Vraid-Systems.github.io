@@ -1,0 +1,55 @@
+# Contracting entities in the Vraid Systems group.
+# Source: n8n data table "VSys Bid Profile".
+# Only identifiers that are already public record, or that buyers need to
+# find us, belong here. Never add EINs, policy numbers, or bank details.
+- key: ab
+  legal_name: Vraid Systems Limited
+  jurisdiction: Alberta, Canada
+  form: corporation
+  established: 2021
+  registry:
+    - label: alberta_cor
+      value: "2028532642"
+    - label: cra_bn
+      value: "785961145"
+    - label: ungm
+      value: "1170673"
+  note: continued_bc
+  address: "175-5005 Dalhousie Dr NW, Ste 1440, Calgary, AB T3A 5R8, Canada"
+  phone: "+1-403-679-5260"
+  serves: serves_ab
+- key: wy
+  legal_name: Vraid Systems Limited Company
+  jurisdiction: Wyoming, USA
+  form: llc
+  established: 2021
+  registry:
+    - label: wy_sos
+      value: "2021-001003987"
+  address: "312 W 2nd St, Ste A303, Casper, WY 82601, USA"
+  phone: "+1-307-217-6443"
+  serves: serves_wy
+- key: mt
+  legal_name: Vraid Systems Limited Company
+  jurisdiction: Montana, USA
+  form: llc
+  established: 2025
+  registry:
+    - label: mt_sos
+      value: "C1510610"
+  address: "175 Hutton Ranch Rd, Ste 102-2130, Kalispell, MT 59901, USA"
+  phone: "+1-406-220-6212"
+  serves: serves_mt
+- key: co
+  legal_name: Vraid Systems Limited
+  jurisdiction: Colorado, USA
+  form: llc
+  established: 2020
+  registry:
+    - label: co_sos
+      value: "20201514582"
+    - label: co_vss
+      value: "VS50000000062097"
+  address: "143 Main St, Unit 9, Rollinsville, CO 80474, USA"
+  phone: "+1-970-235-1163"
+  serves: serves_co

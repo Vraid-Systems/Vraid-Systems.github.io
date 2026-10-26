@@ -1,0 +1,192 @@
+# UI strings shared by the layout and includes, keyed by language.
+en:
+  locale: en_US
+  nav_solutions: Solutions
+  nav_industries: Industries
+  nav_terms: Terms
+  nav_entities: Entities
+  nav_contact: Contact
+  menu: Menu
+  cta: Send Us Your No-Bid Lines
+  cta_subject: "No-bid lines for quote"
+  cta_body: |
+    Agency or organization:
+    Solicitation or PO number (if any):
+    Delivery location:
+    Need-by date:
+
+    Lines (part number, description, quantity), or attach your line sheet:
+
+  cta_note: Opens an email with a short template. A line sheet or spreadsheet is fine.
+
+  terms_kicker: Terms
+  terms_title: The fine print, in plain language.
+  pay_title: How you pay us
+  pay_items:
+    - "Every line is quoted at a firm-fixed price, delivered. Freight, packaging, and fees are inside the number."
+    - "We invoice on delivery. Payment is due 30 days after you accept the goods or the work. Rejected items are not billed."
+    - "We accept ACH/EFT and wire transfer. Cheques go to the mailing address of the contracting entity below."
+    - "US entities invoice in USD. Vraid Systems Limited (Alberta) invoices in CAD or USD, and in other major currencies for UN and international buyers. Canadian invoices include GST where it applies."
+    - "Each US entity carries commercial general liability insurance of $1,000,000 per occurrence or claim and $2,000,000 aggregate. W-9s, certificates of insurance, and your vendor forms are available on request."
+  supply_title: How we pay suppliers
+  supply_items:
+    - "We send a written purchase order with the part number, quantity, ship-to address, and required date. The PO is the whole agreement."
+    - "We pay at order by card, or by ACH or wire on agreed terms. Paying you never depends on our customer paying us."
+    - "Most orders ship direct to our customer. Blind drop-ship is fine, and we never share your pricing with the end buyer."
+    - "If you stock hard-to-find, discontinued, or surplus items, send your line card to the address below."
+
+  entities_kicker: Contracting entities
+  entities_title: Who you contract with.
+  entities_intro: "Vraid Systems is a group of four companies under common ownership. Each one bids in its own market and signs its own contracts."
+  established: Established
+  address: Address
+  mailing_address: Mailing address
+  phone: Phone
+  form_corporation: Corporation
+  form_llc: Limited liability company
+  alberta_cor: Alberta corporate access no.
+  cra_bn: CRA business number
+  ungm: UNGM vendor no.
+  wy_sos: Wyoming Secretary of State ID
+  mt_sos: Montana Secretary of State ID
+  co_sos: Colorado Secretary of State ID
+  co_vss: Colorado VSS vendor code
+  continued_bc: "Continued from British Columbia in 2026 (former BC no. BC1285724)."
+  serves_ab: "UN agencies, international organizations, and Canadian public sector"
+  serves_wy: "Wyoming public sector and US federal"
+  serves_mt: "Montana public sector and universities"
+  serves_co: "Colorado public sector"
+  bids_for: Contracts with
+
+  footer_languages: Language
+  footer_classifications: Classifications
+  privacy: Privacy
+  rights: All rights reserved.
+
+es:
+  locale: es_ES
+  nav_solutions: Soluciones
+  nav_industries: Industrias
+  nav_terms: Condiciones
+  nav_entities: Entidades
+  nav_contact: Contacto
+  menu: Menú
+  cta: Envíenos sus partidas sin oferta
+  cta_subject: "Partidas sin oferta para cotizar"
+  cta_body: |
+    Organismo u organización:
+    Número de licitación u orden de compra (si existe):
+    Lugar de entrega:
+    Fecha requerida:
+
+    Partidas (número de parte, descripción, cantidad), o adjunte su planilla:
+
+  cta_note: Abre un correo con una plantilla breve. Una planilla o una hoja de cálculo sirven.
+
+  terms_kicker: Condiciones
+  terms_title: La letra chica, en lenguaje claro.
+  pay_title: Cómo nos paga
+  pay_items:
+    - "Cada partida se cotiza a precio fijo en firme, con entrega incluida. Flete, embalaje y cargos ya están en el precio."
+    - "Facturamos al entregar. El pago vence 30 días después de que usted acepta los bienes o el trabajo. Lo que se rechaza no se factura."
+    - "Aceptamos transferencia ACH/EFT y transferencia bancaria internacional. Los cheques se envían a la dirección postal de la entidad contratante indicada abajo."
+    - "Las entidades de EE. UU. facturan en USD. Vraid Systems Limited (Alberta) factura en CAD o USD, y en otras monedas principales para la ONU y compradores internacionales. Las facturas canadienses incluyen GST cuando corresponde."
+    - "Cada entidad de EE. UU. tiene un seguro de responsabilidad civil general de USD 1.000.000 por siniestro o reclamo y USD 2.000.000 en total. Formularios W-9, certificados de seguro y sus formularios de proveedor, a pedido."
+  supply_title: Cómo pagamos a nuestros proveedores
+  supply_items:
+    - "Enviamos una orden de compra escrita con número de parte, cantidad, dirección de entrega y fecha requerida. La orden de compra es el acuerdo completo."
+    - "Pagamos al ordenar con tarjeta, o por ACH o transferencia en los plazos acordados. Nuestro pago nunca depende de que nuestro cliente nos pague."
+    - "La mayoría de los pedidos se envían directo a nuestro cliente. Aceptamos envío ciego y nunca compartimos sus precios con el comprador final."
+    - "Si tiene en stock artículos difíciles de conseguir, descontinuados o excedentes, envíe su catálogo a la dirección de abajo."
+
+  entities_kicker: Entidades contratantes
+  entities_title: Con quién contrata.
+  entities_intro: "Vraid Systems es un grupo de cuatro empresas bajo propiedad común. Cada una licita en su propio mercado y firma sus propios contratos."
+  established: Fundada
+  address: Dirección
+  mailing_address: Dirección postal
+  phone: Teléfono
+  form_corporation: Sociedad anónima (corporation)
+  form_llc: Sociedad de responsabilidad limitada (LLC)
+  alberta_cor: N.º de acceso corporativo de Alberta
+  cra_bn: N.º de empresa CRA
+  ungm: N.º de proveedor UNGM
+  wy_sos: ID Secretaría de Estado de Wyoming
+  mt_sos: ID Secretaría de Estado de Montana
+  co_sos: ID Secretaría de Estado de Colorado
+  co_vss: Código de proveedor Colorado VSS
+  continued_bc: "Trasladada desde Columbia Británica en 2026 (antiguo n.º BC1285724)."
+  serves_ab: "Agencias de la ONU, organizaciones internacionales y sector público de Canadá"
+  serves_wy: "Sector público de Wyoming y gobierno federal de EE. UU."
+  serves_mt: "Sector público y universidades de Montana"
+  serves_co: "Sector público de Colorado"
+  bids_for: Contrata con
+
+  footer_languages: Idioma
+  footer_classifications: Clasificaciones
+  privacy: Privacidad
+  rights: Todos los derechos reservados.
+
+ru:
+  locale: ru_RU
+  nav_solutions: Решения
+  nav_industries: Отрасли
+  nav_terms: Условия
+  nav_entities: Юрлица
+  nav_contact: Контакты
+  menu: Меню
+  cta: Пришлите позиции без предложений
+  cta_subject: "Позиции без предложений для котировки"
+  cta_body: |
+    Учреждение или организация:
+    Номер закупки или заказа (если есть):
+    Место поставки:
+    Требуемая дата:
+
+    Позиции (артикул, описание, количество) или приложите спецификацию:
+
+  cta_note: Откроется письмо с коротким шаблоном. Подойдет любая спецификация или таблица.
+
+  terms_kicker: Условия
+  terms_title: Мелкий шрифт простыми словами.
+  pay_title: Как вы нам платите
+  pay_items:
+    - "Каждая позиция котируется по твердой фиксированной цене с доставкой. Фрахт, упаковка и сборы уже включены."
+    - "Счет выставляется при поставке. Оплата производится в течение 30 дней после приемки товара или работы. Отклоненные позиции не оплачиваются."
+    - "Принимаем оплату через ACH/EFT и банковским переводом. Чеки направляются на почтовый адрес соответствующего юрлица, указанный ниже."
+    - "Юрлица в США выставляют счета в долларах США. Vraid Systems Limited (Альберта) выставляет счета в канадских или американских долларах, а для ООН и международных заказчиков также в других основных валютах. В канадских счетах указывается GST, если он применяется."
+    - "Каждое юрлицо в США застраховано по общей гражданской ответственности: 1 000 000 долларов США на случай или претензию и 2 000 000 долларов США в совокупности. Форма W-9, сертификаты страхования и ваши анкеты поставщика предоставляются по запросу."
+  supply_title: Как мы платим поставщикам
+  supply_items:
+    - "Мы направляем письменный заказ с артикулом, количеством, адресом доставки и сроком. Заказ и есть вся договоренность."
+    - "Оплачиваем при заказе картой или через ACH и банковский перевод на согласованных условиях. Наша оплата вам никогда не зависит от оплаты нашим заказчиком."
+    - "Большинство заказов отгружается напрямую заказчику. Возможна анонимная отгрузка, и мы никогда не раскрываем ваши цены конечному покупателю."
+    - "Если у вас есть редкие, снятые с производства или складские излишки, пришлите свой каталог на адрес ниже."
+
+  entities_kicker: Юридические лица
+  entities_title: С кем вы заключаете договор.
+  entities_intro: "Vraid Systems это группа из четырех компаний с общим владельцем. Каждая участвует в закупках на своем рынке и подписывает собственные договоры."
+  established: Основана
+  address: Адрес
+  mailing_address: Почтовый адрес
+  phone: Телефон
+  form_corporation: Корпорация
+  form_llc: Общество с ограниченной ответственностью (LLC)
+  alberta_cor: Регистрационный номер в Альберте
+  cra_bn: Бизнес-номер CRA
+  ungm: Номер поставщика UNGM
+  wy_sos: ID Госсекретаря Вайоминга
+  mt_sos: ID Госсекретаря Монтаны
+  co_sos: ID Госсекретаря Колорадо
+  co_vss: Код поставщика Colorado VSS
+  continued_bc: "Перерегистрирована из Британской Колумбии в 2026 году (прежний номер BC1285724)."
+  serves_ab: "Агентства ООН, международные организации и государственный сектор Канады"
+  serves_wy: "Государственный сектор Вайоминга и федеральные закупки США"
+  serves_mt: "Государственный сектор и университеты Монтаны"
+  serves_co: "Государственный сектор Колорадо"
+  bids_for: Заказчики
+
+  footer_languages: Язык
+  footer_classifications: Классификаторы
+  privacy: Конфиденциальность
+  rights: Все права защищены.

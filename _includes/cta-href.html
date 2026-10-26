@@ -1,0 +1,2 @@
+{%- assign t = site.data.i18n[current_lang] -%}
+mailto:{{ site.contact }}?subject={{ t.cta_subject | url_encode | replace: '+', '%20' }}&amp;body={{ t.cta_body | url_encode | replace: '+', '%20' }}

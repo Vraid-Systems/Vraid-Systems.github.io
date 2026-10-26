@@ -1,104 +1,75 @@
+{%- assign current_lang = page.lang | default: "en" -%}
+{%- assign t = site.data.i18n[current_lang] -%}
+{%- assign page_title = page.title | default: site.description[current_lang] -%}
+{%- assign page_desc = page.summary | default: site.about[current_lang] | strip_newlines | strip -%}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ current_lang }}">
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    {% assign current_lang = page.lang | default: "en" %}
-    <title>{{ site.title }} | {{ site.description[current_lang] }}</title>
+    <title>{{ site.title }} | {{ page_title }}</title>
+    <meta content="{{ page_desc | escape }}" name="description">
+    <meta content="#FAFAFA" name="theme-color">
+    <link href="{{ page.url | absolute_url }}" rel="canonical">
+    {%- if page.translations %}
+    <link href="{{ '/' | absolute_url }}" hreflang="en" rel="alternate">
+    <link href="{{ '/es.html' | absolute_url }}" hreflang="es" rel="alternate">
+    <link href="{{ '/ru.html' | absolute_url }}" hreflang="ru" rel="alternate">
+    <link href="{{ '/' | absolute_url }}" hreflang="x-default" rel="alternate">
+    {%- endif %}
 
-    <!-- Favicon -->
+    <!-- Link previews (Teams, Slack, email clients) -->
+    <meta content="website" property="og:type">
+    <meta content="{{ site.title }}" property="og:site_name">
+    <meta content="{{ site.title }} | {{ page_title | escape }}" property="og:title">
+    <meta content="{{ page_desc | escape }}" property="og:description">
+    <meta content="{{ page.url | absolute_url }}" property="og:url">
+    <meta content="{{ t.locale }}" property="og:locale">
+    <meta content="summary" name="twitter:card">
+
     <link href="/favicon.svg" rel="icon" type="image/svg+xml">
+    <link href="/favicon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Public+Sans:wght@300;400;500&family=Roboto+Mono:wght@400;500&display=swap"
           rel="stylesheet">
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Compiled Tailwind. Rebuild with `npm run build:css` after changing classes (see README). -->
+    <link href="/assets/css/site.css?v={{ site.time | date: '%s' }}" rel="stylesheet">
 
-    <!-- Tailwind Configuration -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        paper: '#FAFAFA',
-                        obsidian: '#121212',
-                        'steel-blue': '#465262',
-                        'mint-glass': '#E8F5F2',
-                        'ghost-gray': '#E0E0E0',
-                    },
-                    fontFamily: {
-                        sans: ['Public Sans', 'sans-serif'],
-                        heading: ['Inter', 'sans-serif'],
-                        mono: ['Roboto Mono', 'monospace'],
-                    },
-                    spacing: {
-                        '128': '32rem',
-                    }
-                }
-            }
-        }
+    {%- if page.translations %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "url": "{{ '/' | absolute_url }}",
+      "logo": "{{ '/favicon.png' | absolute_url }}",
+      "email": "{{ site.contact }}",
+      "description": {{ site.about.en | strip | jsonify }},
+      "naics": ["423490", "541512"],
+      "isicV4": ["4690", "6202"],
+      "subOrganization": [
+        {%- for e in site.data.entities %}
+        {
+          "@type": "Organization",
+          "legalName": {{ e.legal_name | jsonify }},
+          "foundingDate": "{{ e.established }}",
+          "telephone": {{ e.phone | jsonify }},
+          "address": {{ e.address | jsonify }},
+          "areaServed": {{ e.jurisdiction | jsonify }},
+          "identifier": [
+            {%- for r in e.registry %}
+            {"@type": "PropertyValue", "name": {{ site.data.i18n.en[r.label] | jsonify }}, "value": {{ r.value | jsonify }}}{% unless forloop.last %},{% endunless %}
+            {%- endfor %}
+          ]
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    }
     </script>
-
-    <style>
-        /* Custom Utilities for Blueprint aesthetic */
-        body {
-            background-color: #FAFAFA;
-            color: #121212;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        /* The 0.5pt border look */
-        .hairline-border {
-            border: 1px solid #E0E0E0; /* Standard screens */
-        }
-
-        @media (min-resolution: 2dppx) {
-            .hairline-border {
-                border-width: 0.5px;
-            }
-        }
-
-        .hairline-top {
-            border-top: 1px solid #E0E0E0;
-        }
-
-        .hairline-bottom {
-            border-bottom: 1px solid #E0E0E0;
-        }
-
-        .hairline-right {
-            border-right: 1px solid #E0E0E0;
-        }
-
-        /* Smooth scrolling */
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* Typography Override Helpers */
-        .font-feature-settings {
-            font-feature-settings: "cv11", "ss01";
-        }
-
-        /* Subtle Fade In Animation */
-        .fade-in-up {
-            animation: fadeInUp 0.8s ease-out forwards;
-            opacity: 0;
-            transform: translateY(20px);
-        }
-
-        @keyframes fadeInUp {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
+    {%- endif %}
 </head>
 
 <body class="flex flex-col min-h-screen">
@@ -115,20 +86,20 @@
                     <span>Systems</span>
                 </div>
                 <p class="font-sans text-sm text-obsidian/60">{{ site.slug[current_lang] }}</p>
-                <p class="font-sans text-sm text-obsidian/60"><a href="mailto:{{ site.contact }}">{{ site.contact }}</a></p>
+                <p class="font-sans text-sm text-obsidian/80"><a class="hover:text-steel-blue" href="mailto:{{ site.contact }}">{{ site.contact }}</a></p>
             </div>
 
             <div class="md:text-center">
-                <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">ISO 639-1</h4>
+                <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">{{ t.footer_languages }}</h4>
                 <p class="font-sans text-sm text-obsidian/80">
-                    <a href="/index.html">en</a> <span class="text-ghost-gray mx-1">|</span>
-                    <a href="/es.html">es</a> <span class="text-ghost-gray mx-1">|</span>
-                    <a href="/ru.html">ru</a>
+                    <a class="hover:text-steel-blue" href="/" hreflang="en" lang="en">English</a> <span class="text-ghost-gray mx-1">|</span>
+                    <a class="hover:text-steel-blue" href="/es.html" hreflang="es" lang="es">Español</a> <span class="text-ghost-gray mx-1">|</span>
+                    <a class="hover:text-steel-blue" href="/ru.html" hreflang="ru" lang="ru">Русский</a>
                 </p>
             </div>
 
             <div class="md:text-right">
-                <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">Registration</h4>
+                <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">{{ t.footer_classifications }}</h4>
                 <div class="font-mono text-xs text-obsidian/60 space-y-2">
                     <p>ISIC 4690, 6202</p>
                     <p>NACE 46.90, 62.02</p>
@@ -139,12 +110,11 @@
 
         <div class="border-t border-ghost-gray pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p class="font-mono text-[10px] text-obsidian/40 uppercase">
-                &copy; Vraid Systems. All Rights Reserved.
+                &copy; {{ site.time | date: '%Y' }} Vraid Systems. {{ t.rights }}
             </p>
-            <!--<div class="flex gap-6 font-sans text-xs text-obsidian/60">
-                <a class="hover:text-steel-blue transition-colors" href="#">Privacy</a>
-                <a class="hover:text-steel-blue transition-colors" href="#">Terms of Service</a>
-            </div>-->
+            <div class="flex gap-6 font-sans text-xs text-obsidian/60">
+                <a class="hover:text-steel-blue transition-colors" href="/privacy.html">{{ t.privacy }}</a>
+            </div>
         </div>
     </div>
 </footer>

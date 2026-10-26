@@ -12,3 +12,14 @@ slug:
   es: Sin recargos. Nada de "haremos lo posible". Pago contra aceptación.
   ru: Никаких наценок. Никаких «мы сделаем все возможное». Оплата после приемки.
 title: Vraid Systems
+url: https://vraidsys.com
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - node_modules
+  - assets/css/input.css

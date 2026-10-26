@@ -1,0 +1,30 @@
+{% assign t = site.data.i18n[current_lang] %}
+<section class="border-y border-ghost-gray bg-white/50" id="terms">
+    <div class="max-w-7xl mx-auto px-6 py-24">
+        <div class="font-mono text-xs text-steel-blue mb-4 uppercase tracking-wider">{{ t.terms_kicker }}</div>
+        <h2 class="font-heading font-semibold text-3xl md:text-4xl text-obsidian mb-12">{{ t.terms_title }}</h2>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+            <div>
+                <h3 class="font-heading font-semibold text-sm uppercase tracking-wide mb-6 text-steel-blue">
+                    {{ t.pay_title }}
+                </h3>
+                <ul class="space-y-4 font-sans text-obsidian/80 leading-relaxed">
+                    {% for item in t.pay_items %}
+                    <li class="pl-4 border-l-2 border-ghost-gray">{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-heading font-semibold text-sm uppercase tracking-wide mb-6 text-steel-blue">
+                    {{ t.supply_title }}
+                </h3>
+                <ul class="space-y-4 font-sans text-obsidian/80 leading-relaxed">
+                    {% for item in t.supply_items %}
+                    <li class="pl-4 border-l-2 border-ghost-gray">{{ item }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
