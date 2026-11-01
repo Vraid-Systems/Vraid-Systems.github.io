@@ -18,4 +18,8 @@ layout: null
     <loc>{{ '/privacy.html' | absolute_url }}</loc>
     <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
   </url>
+  <url>
+    <loc>{{ '/conduct.html' | absolute_url }}</loc>
+    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
+  </url>
 </urlset>

@@ -61,6 +61,7 @@ en:
   footer_languages: Language
   footer_classifications: Classifications
   privacy: Privacy
+  conduct: Conduct and Inclusion
   rights: All rights reserved.
 
 es:
@@ -125,6 +126,7 @@ es:
   footer_languages: Idioma
   footer_classifications: Clasificaciones
   privacy: Privacidad
+  conduct: Conducta e Inclusión
   rights: Todos los derechos reservados.
 
 ru:
@@ -189,4 +191,5 @@ ru:
   footer_languages: Язык
   footer_classifications: Классификаторы
   privacy: Конфиденциальность
+  conduct: Этика и инклюзивность
   rights: Все права защищены.
