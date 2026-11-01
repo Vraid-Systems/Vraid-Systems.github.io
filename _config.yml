@@ -3,6 +3,8 @@ about:
   es: Vraid Systems trabaja para organismos públicos, universidades y organizaciones internacionales. Conseguimos los artículos especializados, descontinuados y de bajo volumen que otros proveedores no cotizan, y desarrollamos sistemas de datos y software, sobre las plataformas que usted ya tiene licenciadas cuando es posible. El precio es fijo y usted paga solo después de aceptar la entrega.
   ru: Vraid Systems работает с государственными учреждениями, университетами и международными организациями. Мы находим специализированные, снятые с производства и малотиражные позиции, которые другие поставщики отказываются котировать, а также создаем системы для работы с данными и программное обеспечение, по возможности на платформах, на которые у вас уже есть лицензии. Цена фиксирована, а оплата производится только после приемки поставки.
 contact: sales@vraidsys.com
+# Focal Point for the conduct and inclusion policies (conduct.html). Keep this a person, not the automated sales inbox.
+conduct_contact: jzerbe@vraidsys.com
 description:
   en: Firm-Fixed-Price. Paid on Acceptance.
   es: Precio Fijo en Firme. Pago Contra Aceptación.
