@@ -37,3 +37,23 @@ section[id], footer[id] { scroll-margin-top: 5rem; }
     html { scroll-behavior: auto; }
     .fade-in-up { animation: none; opacity: 1; transform: none; }
 }
+
+/* Policy pages (_layouts/policy.html). Bodies are Markdown, so styling hangs off .policy. */
+@layer components {
+    .policy h2 { @apply font-heading font-semibold text-2xl text-obsidian mt-16 mb-4; }
+    .policy h3 { @apply font-heading font-semibold text-xl text-obsidian mt-10 mb-4; }
+    .policy h2:first-child { @apply mt-0; }
+    .policy h2[id], .policy h3[id] { scroll-margin-top: 6rem; }
+    .policy p, .policy ol, .policy ul { @apply mb-6; }
+    .policy ol { @apply list-decimal pl-6 space-y-3; }
+    .policy ul { @apply list-disc pl-6 space-y-3; }
+    .policy a { @apply underline hover:text-steel-blue; }
+    .policy nav.toc { @apply mb-10 font-mono text-xs uppercase tracking-wider space-y-2; }
+    .policy nav.toc a { @apply block no-underline text-steel-blue hover:text-obsidian; }
+    .policy .table-scroll { @apply overflow-x-auto mb-6; }
+    .policy table { @apply w-full text-sm text-left border-t border-ghost-gray; }
+    .policy thead { @apply font-mono text-xs uppercase tracking-wider text-steel-blue; }
+    .policy tr { @apply border-b border-ghost-gray; }
+    .policy th, .policy td { @apply py-3 pr-4 font-normal align-top; }
+    .policy tbody th { @apply text-obsidian; }
+}

@@ -3,23 +3,23 @@ layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-{%- assign langs = "/,/es.html,/ru.html" | split: "," %}
-{%- for path in langs %}
+{%- assign default_lang = site.languages[0] -%}
+{%- assign ref_pages = site.pages | where_exp: "p", "p.ref" | sort: "url" -%}
+{%- for p in ref_pages %}
   <url>
-    <loc>{{ path | absolute_url }}</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}"/>
-    <xhtml:link rel="alternate" hreflang="es" href="{{ '/es.html' | absolute_url }}"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="{{ '/ru.html' | absolute_url }}"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}"/>
+    <loc>{{ p.url | absolute_url }}</loc>
+    <lastmod>{{ p.revised | default: site.time | date: '%Y-%m-%d' }}</lastmod>
+    {%- assign group = site.pages | where: "ref", p.ref -%}
+    {%- for l in site.languages -%}
+    {%- assign alt = group | where: "lang", l | first -%}
+    {%- if alt %}
+    <xhtml:link rel="alternate" hreflang="{{ l }}" href="{{ alt.url | absolute_url }}"/>
+    {%- endif -%}
+    {%- endfor -%}
+    {%- assign alt = group | where: "lang", default_lang | first -%}
+    {%- if alt %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ alt.url | absolute_url }}"/>
+    {%- endif %}
   </url>
 {%- endfor %}
-  <url>
-    <loc>{{ '/privacy.html' | absolute_url }}</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-  </url>
-  <url>
-    <loc>{{ '/conduct.html' | absolute_url }}</loc>
-    <lastmod>{{ site.time | date: '%Y-%m-%d' }}</lastmod>
-  </url>
 </urlset>

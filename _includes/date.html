@@ -1,0 +1,23 @@
+{%- comment -%}
+  Localized date. Usage: {% include date.html date=page.revised lang=page.lang %}
+  Add month_only=true for "November 2026", and plus_years=1 to shift the year.
+{%- endcomment -%}
+{%- assign d_lang = include.lang | default: "en" -%}
+{%- assign d_month_index = include.date | date: "%-m" | minus: 1 -%}
+{%- assign d_month = site.data.i18n[d_lang].months[d_month_index] -%}
+{%- assign d_day = include.date | date: "%-d" -%}
+{%- assign d_plus = include.plus_years | default: 0 -%}
+{%- assign d_year = include.date | date: "%Y" | plus: d_plus -%}
+{%- if include.month_only -%}
+{%- case d_lang -%}
+{%- when "es" -%}{{ d_month }} de {{ d_year }}
+{%- when "ru" -%}{{ d_month }} {{ d_year }} г.
+{%- else -%}{{ d_month }} {{ d_year }}
+{%- endcase -%}
+{%- else -%}
+{%- case d_lang -%}
+{%- when "es" -%}{{ d_day }} de {{ d_month }} de {{ d_year }}
+{%- when "ru" -%}{{ d_day }} {{ d_month }} {{ d_year }} г.
+{%- else -%}{{ d_day }} {{ d_month }} {{ d_year }}
+{%- endcase -%}
+{%- endif -%}
