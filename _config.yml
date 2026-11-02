@@ -15,6 +15,9 @@ slug:
   ru: Никаких наценок. Никаких «мы сделаем все возможное». Оплата после приемки.
 title: Vraid Systems
 url: https://vraidsys.com
+# Site languages, in switcher order. The first one is x-default.
+# Pages that are translations of each other share a `ref` in front matter (see README).
+languages: [en, es, ru]
 exclude:
   - README.md
   - LICENSE

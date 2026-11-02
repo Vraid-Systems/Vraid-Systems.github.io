@@ -1,0 +1,41 @@
+---
+layout: default
+---
+{%- comment -%}
+  Policy pages: write the body in Markdown, set `lang`, `ref`, `title`, `summary`
+  and `revised` in front matter.
+
+  On a translation, `revised` is the revision date of the English text it was
+  translated from. If the English page has a later `revised`, the translation
+  shows a notice until it is updated.
+{%- endcomment -%}
+{%- assign current_lang = page.lang | default: site.languages[0] -%}
+{%- assign t = site.data.i18n[current_lang] -%}
+{%- assign source_lang = site.languages[0] -%}
+{%- assign source = site.pages | where: "ref", page.ref | where: "lang", source_lang | first -%}
+{% include nav.html %}
+
+<main class="pt-32 pb-24 md:pt-40 px-6 max-w-3xl mx-auto w-full font-sans text-obsidian/80 leading-relaxed">
+    {%- if current_lang != source_lang and source %}
+    {%- assign source_rev = source.revised | date: "%Y%m%d" | plus: 0 -%}
+    {%- assign page_rev = page.revised | date: "%Y%m%d" | plus: 0 %}
+    <aside class="mb-10 border-l-2 border-steel-blue bg-mint-glass/60 px-4 py-3 text-sm text-obsidian/80" role="note">
+        <p>{{ t.translation_note }} <a class="underline hover:text-steel-blue" href="{{ source.url | relative_url }}" hreflang="{{ source_lang }}">{{ t.translation_source }}</a>.</p>
+        {%- if source_rev > page_rev %}
+        {%- capture source_date %}{% include date.html date=source.revised lang=current_lang %}{% endcapture %}
+        {%- assign source_date_end = source_date | slice: -1 %}
+        <p class="mt-2 font-medium text-obsidian">{{ t.translation_stale }} {{ source_date }}{% unless source_date_end == "." %}.{% endunless %}</p>
+        {%- endif %}
+    </aside>
+    {%- endif %}
+
+    <h1 class="font-heading font-semibold text-4xl text-obsidian mb-8">{{ page.title }}</h1>
+
+    <div class="policy">
+{{ content }}
+    </div>
+
+    {%- if page.revised %}
+    <p class="text-sm text-obsidian/50 mt-12">{{ t.policy_revised }}: {% include date.html date=page.revised lang=current_lang %}</p>
+    {%- endif %}
+</main>

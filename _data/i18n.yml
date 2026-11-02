@@ -64,6 +64,14 @@ en:
   conduct: Conduct and Inclusion
   rights: All rights reserved.
 
+  language_name: English
+  # Month names as used after a day number ("1 November 2026").
+  months: [January, February, March, April, May, June, July, August, September, October, November, December]
+  policy_revised: Last revised
+  translation_note: ""
+  translation_stale: ""
+  translation_source: ""
+
 es:
   locale: es_ES
   nav_solutions: Soluciones
@@ -129,6 +137,13 @@ es:
   conduct: Conducta e Inclusión
   rights: Todos los derechos reservados.
 
+  language_name: Español
+  months: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
+  policy_revised: Última revisión
+  translation_note: "Esta es una traducción de cortesía. Si difiere de la versión en inglés, prevalece la versión en inglés."
+  translation_stale: "La versión en inglés se revisó después de esta traducción, el"
+  translation_source: Ver la versión en inglés
+
 ru:
   locale: ru_RU
   nav_solutions: Решения
@@ -193,3 +208,11 @@ ru:
   privacy: Конфиденциальность
   conduct: Этика и инклюзивность
   rights: Все права защищены.
+
+  language_name: Русский
+  # Genitive, as used after a day number ("1 ноября 2026 г.").
+  months: [января, февраля, марта, апреля, мая, июня, июля, августа, сентября, октября, ноября, декабря]
+  policy_revised: Последняя редакция
+  translation_note: "Это перевод, предоставленный для удобства. В случае расхождений преимущественную силу имеет версия на английском языке."
+  translation_stale: "Английская версия была изменена после подготовки этого перевода:"
+  translation_source: Открыть версию на английском

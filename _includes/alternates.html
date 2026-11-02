@@ -1,0 +1,15 @@
+{%- comment -%}
+  hreflang links for every translation of this page, matched on `ref`.
+  Languages without a translation are left out, as hreflang requires.
+{%- endcomment -%}
+{%- assign alt_group = site.pages | where: "ref", page.ref -%}
+{%- for l in site.languages -%}
+{%- assign alt = alt_group | where: "lang", l | first -%}
+{%- if alt %}
+    <link href="{{ alt.url | absolute_url }}" hreflang="{{ l }}" rel="alternate">
+{%- endif -%}
+{%- endfor -%}
+{%- assign alt = alt_group | where: "lang", site.languages[0] | first -%}
+{%- if alt %}
+    <link href="{{ alt.url | absolute_url }}" hreflang="x-default" rel="alternate">
+{%- endif -%}

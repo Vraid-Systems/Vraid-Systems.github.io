@@ -11,12 +11,7 @@
     <meta content="{{ page_desc | escape }}" name="description">
     <meta content="#FAFAFA" name="theme-color">
     <link href="{{ page.url | absolute_url }}" rel="canonical">
-    {%- if page.translations %}
-    <link href="{{ '/' | absolute_url }}" hreflang="en" rel="alternate">
-    <link href="{{ '/es.html' | absolute_url }}" hreflang="es" rel="alternate">
-    <link href="{{ '/ru.html' | absolute_url }}" hreflang="ru" rel="alternate">
-    <link href="{{ '/' | absolute_url }}" hreflang="x-default" rel="alternate">
-    {%- endif %}
+    {%- if page.ref %}{% include alternates.html %}{% endif %}
 
     <!-- Link previews (Teams, Slack, email clients) -->
     <meta content="website" property="og:type">
@@ -38,7 +33,7 @@
     <!-- Compiled Tailwind. Rebuild with `npm run build:css` after changing classes (see README). -->
     <link href="/assets/css/site.css?v={{ site.time | date: '%s' }}" rel="stylesheet">
 
-    {%- if page.translations %}
+    {%- if page.ref == "home" %}
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -92,9 +87,14 @@
             <div class="md:text-center">
                 <h4 class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-4">{{ t.footer_languages }}</h4>
                 <p class="font-sans text-sm text-obsidian/80">
-                    <a class="hover:text-steel-blue" href="/" hreflang="en" lang="en">English</a> <span class="text-ghost-gray mx-1">|</span>
-                    <a class="hover:text-steel-blue" href="/es.html" hreflang="es" lang="es">Español</a> <span class="text-ghost-gray mx-1">|</span>
-                    <a class="hover:text-steel-blue" href="/ru.html" hreflang="ru" lang="ru">Русский</a>
+                    {%- comment -%} Each language links to this page's own translation, or that language's home page if there is none. {%- endcomment -%}
+                    {%- assign switch_ref = page.ref | default: "home" -%}
+                    {%- for l in site.languages -%}
+                    {%- assign alt = site.pages | where: "ref", switch_ref | where: "lang", l | first -%}
+                    {%- unless alt -%}{%- assign alt = site.pages | where: "ref", "home" | where: "lang", l | first -%}{%- endunless %}
+                    <a class="hover:text-steel-blue" href="{{ alt.url | relative_url }}" hreflang="{{ l }}" lang="{{ l }}"{% if l == current_lang %} aria-current="page"{% endif %}>{{ site.data.i18n[l].language_name }}</a>
+                    {%- unless forloop.last %} <span class="text-ghost-gray mx-1">|</span>{% endunless -%}
+                    {%- endfor %}
                 </p>
             </div>
 
@@ -113,8 +113,12 @@
                 &copy; {{ site.time | date: '%Y' }} Vraid Systems. {{ t.rights }}
             </p>
             <div class="flex gap-6 font-sans text-xs text-obsidian/60">
-                <a class="hover:text-steel-blue transition-colors" href="/privacy.html">{{ t.privacy }}</a>
-                <a class="hover:text-steel-blue transition-colors" href="/conduct.html">{{ t.conduct }}</a>
+                {%- assign policy_refs = "privacy,conduct" | split: "," -%}
+                {%- for policy_ref in policy_refs -%}
+                {%- assign policy = site.pages | where: "ref", policy_ref | where: "lang", current_lang | first -%}
+                {%- unless policy -%}{%- assign policy = site.pages | where: "ref", policy_ref | where: "lang", site.languages[0] | first -%}{%- endunless %}
+                <a class="hover:text-steel-blue transition-colors" href="{{ policy.url | relative_url }}">{{ t[policy_ref] }}</a>
+                {%- endfor %}
             </div>
         </div>
     </div>
