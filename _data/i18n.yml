@@ -144,6 +144,78 @@ es:
   translation_stale: "La versión en inglés se revisó después de esta traducción, el"
   translation_source: Ver la versión en inglés
 
+fr:
+  locale: fr_FR
+  nav_solutions: Solutions
+  nav_industries: Secteurs
+  nav_terms: Conditions
+  nav_entities: Entités
+  nav_contact: Contact
+  menu: Menu
+  cta: Envoyez-nous vos lignes sans offre
+  cta_subject: "Lignes sans offre à chiffrer"
+  cta_body: |
+    Organisme ou organisation :
+    Numéro d'appel d'offres ou de bon de commande (le cas échéant) :
+    Lieu de livraison :
+    Date requise :
+
+    Lignes (référence, désignation, quantité), ou joignez votre liste :
+
+  cta_note: Ouvre un courriel avec un court modèle. Une liste ou un tableur suffit.
+
+  terms_kicker: Conditions
+  terms_title: Les petits caractères, en clair.
+  pay_title: Comment vous nous payez
+  pay_items:
+    - "Chaque ligne est chiffrée à prix forfaitaire ferme, livraison comprise. Fret, emballage et frais sont inclus dans le montant."
+    - "Nous facturons à la livraison. Le paiement est dû 30 jours après votre acceptation des biens ou des travaux. Les articles refusés ne sont pas facturés."
+    - "Nous acceptons les paiements ACH/EFT et les virements bancaires. Les chèques sont à adresser à l'adresse postale de l'entité contractante indiquée ci-dessous."
+    - "Les entités américaines facturent en USD. Vraid Systems Limited (Alberta) facture en CAD ou en USD, et dans d'autres grandes devises pour les Nations Unies et les acheteurs internationaux. Les factures canadiennes incluent la TPS lorsqu'elle s'applique."
+    - "Chaque entité américaine est couverte par une assurance responsabilité civile générale de 1 000 000 USD par sinistre ou réclamation et de 2 000 000 USD au total. Formulaires W-9, attestations d'assurance et vos formulaires fournisseur sont disponibles sur demande."
+  supply_title: Comment nous payons nos fournisseurs
+  supply_items:
+    - "Nous envoyons un bon de commande écrit indiquant la référence, la quantité, l'adresse de livraison et la date requise. Le bon de commande constitue l'intégralité de l'accord."
+    - "Nous payons à la commande par carte, ou par ACH ou virement selon les conditions convenues. Notre paiement ne dépend jamais du paiement de notre client."
+    - "La plupart des commandes sont expédiées directement à notre client. L'expédition directe anonyme est possible, et nous ne communiquons jamais vos prix à l'acheteur final."
+    - "Si vous avez en stock des articles introuvables, en fin de série ou en surplus, envoyez votre catalogue à l'adresse ci-dessous."
+
+  entities_kicker: Entités contractantes
+  entities_title: Avec qui vous contractez.
+  entities_intro: "Vraid Systems est un groupe de quatre sociétés sous contrôle commun. Chacune soumissionne sur son propre marché et signe ses propres contrats."
+  established: Fondée en
+  address: Adresse
+  mailing_address: Adresse postale
+  phone: Téléphone
+  form_corporation: Société par actions (corporation)
+  form_llc: Société à responsabilité limitée (LLC)
+  alberta_cor: N° d'accès corporatif (Alberta)
+  cra_bn: N° d'entreprise ARC
+  ungm: N° de fournisseur UNGM
+  wy_sos: ID du Secrétaire d'État du Wyoming
+  mt_sos: ID du Secrétaire d'État du Montana
+  co_sos: ID du Secrétaire d'État du Colorado
+  co_vss: Code fournisseur Colorado VSS
+  continued_bc: "Prorogée depuis la Colombie-Britannique en 2026 (ancien n° BC1285724)."
+  serves_ab: "Agences des Nations Unies, organisations internationales et secteur public canadien"
+  serves_wy: "Secteur public du Wyoming et administration fédérale américaine"
+  serves_mt: "Secteur public et universités du Montana"
+  serves_co: "Secteur public du Colorado"
+  bids_for: Contracte avec
+
+  footer_languages: Langue
+  footer_classifications: Classifications
+  privacy: Confidentialité
+  conduct: Conduite et inclusion
+  rights: Tous droits réservés.
+
+  language_name: Français
+  months: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+  policy_revised: Dernière révision
+  translation_note: "Ceci est une traduction fournie à titre indicatif. En cas de divergence, la version anglaise prévaut."
+  translation_stale: "La version anglaise a été révisée après cette traduction, le"
+  translation_source: Voir la version anglaise
+
 ru:
   locale: ru_RU
   nav_solutions: Решения

@@ -4,12 +4,12 @@
 
 ## Where things live
 
-- `index.html`, `es.html`, `ru.html`: home page copy per language.
-- `en/`, `es/`, `ru/`: policy pages (privacy, conduct) as Markdown, using `_layouts/policy.html`.
+- `index.html`, `es.html`, `fr.html`, `ru.html`: home page copy per language.
+- `en/`, `es/`, `fr/`, `ru/`: policy pages (privacy, conduct) as Markdown, using `_layouts/policy.html`.
 - `_data/i18n.yml`: shared UI strings (nav, CTA, terms, entity labels, month names) per language.
 - `_data/entities.yml`: contracting entities shown on the site and in the JSON-LD.
   Only public-record identifiers go here. Never add EINs, insurance policy numbers, or bank details.
-- `_includes/`: nav, terms, and entity sections shared by all three languages.
+- `_includes/`: nav, terms, and entity sections shared by all languages.
 
 ## Languages and translations
 

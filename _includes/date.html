@@ -15,6 +15,7 @@
 {%- else -%}{{ d_month }} {{ d_year }}
 {%- endcase -%}
 {%- else -%}
+{%- if d_lang == "fr" and d_day == "1" %}{% assign d_day = "1er" %}{% endif -%}
 {%- case d_lang -%}
 {%- when "es" -%}{{ d_day }} de {{ d_month }} de {{ d_year }}
 {%- when "ru" -%}{{ d_day }} {{ d_month }} {{ d_year }} г.
