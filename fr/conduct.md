@@ -98,4 +98,4 @@ Toute personne, au sein de l'entreprise ou à l'extérieur, peut signaler un pro
 
 Vous pouvez aussi faire un signalement directement auprès de l'entité des Nations Unies concernée. Pour les travaux réalisés dans le cadre d'un contrat de la FAO, utilisez la [ligne d'assistance du Bureau de l'Inspecteur général de la FAO](https://www.fao.org/contact-us/report-misconduct/fr/).
 
-Adoptées le {% include date.html date=page.adopted lang=page.lang %}. Prochain réexamen au plus tard en {% include date.html date=page.adopted lang=page.lang month_only=true plus_years=1 %}.
+Adoptées le {% include date.html date=page.adopted lang=page.lang %}. Prochain réexamen au plus tard en {% include date.html date=page.adopted lang=page.lang month_only=true plus_years=1 %}.
