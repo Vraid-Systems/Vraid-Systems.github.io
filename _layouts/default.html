@@ -45,6 +45,12 @@
       "description": {{ site.about.en | strip | jsonify }},
       "naics": ["423490", "541512"],
       "isicV4": ["4690", "6202"],
+      "founder": {
+        "@type": "Person",
+        "@id": "https://jzerbe.com/person#person",
+        "name": "Jason Zerbe",
+        "url": "https://jzerbe.com/person"
+      },
       "subOrganization": [
         {%- for e in site.data.entities %}
         {
