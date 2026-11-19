@@ -2,7 +2,7 @@
 en:
   locale: en_US
   nav_solutions: Solutions
-  nav_industries: Industries
+  nav_industries: Work Streams
   nav_terms: Terms
   nav_entities: Entities
   nav_contact: Contact
@@ -25,14 +25,16 @@ en:
   pay_items:
     - "Every line is quoted at a firm-fixed price, delivered. Freight, packaging, and fees are inside the number."
     - "We invoice on delivery. Payment is due 30 days after you accept the goods or the work. Rejected items are not billed."
+    - "Land and watershed recovery is billed as the contract provides, usually monthly progress payments for work in place, with any retainage released at final acceptance."
     - "We accept ACH/EFT and wire transfer. Cheques go to the mailing address of the contracting entity below."
     - "US entities invoice in USD. Vraid Systems Limited (Alberta) invoices in CAD or USD, and in other major currencies for UN and international buyers. Canadian invoices include GST where it applies."
     - "Each US entity carries commercial general liability insurance of $1,000,000 per occurrence or claim and $2,000,000 aggregate. W-9s, certificates of insurance, and your vendor forms are available on request."
-  supply_title: How we pay suppliers
+  supply_title: How we pay suppliers and subcontractors
   supply_items:
-    - "We send a written purchase order with the part number, quantity, ship-to address, and required date. The PO is the whole agreement."
-    - "We pay at order by card, or by ACH or wire on agreed terms. Paying you never depends on our customer paying us."
+    - "For goods, we send a written purchase order with the part number, quantity, ship-to address, and required date. The PO is the whole agreement."
+    - "We pay goods suppliers at order by card, or by ACH or wire on agreed terms. Paying you never depends on our customer paying us."
     - "Most orders ship direct to our customer. Blind drop-ship is fine, and we never share your pricing with the end buyer."
+    - "Field subcontractors on land and watershed recovery work under a written subcontract, not a purchase order. It sets the scope, insurance, and payment timing."
     - "If you stock hard-to-find, discontinued, or surplus items, send your line card to the address below."
 
   entities_kicker: Contracting entities
@@ -52,10 +54,10 @@ en:
   co_sos: Colorado Secretary of State ID
   co_vss: Colorado VSS vendor code
   continued_bc: "Continued from British Columbia in 2026 (former BC no. BC1285724)."
-  serves_ab: "UN agencies, international organizations, and Canadian public sector"
-  serves_wy: "Wyoming public sector and US federal"
+  serves_ab: "Goods, data, and software for UN agencies, international organizations, and the Canadian public sector"
+  serves_wy: "Wyoming public sector and US federal, including land and watershed recovery"
   serves_mt: "Montana public sector and universities"
-  serves_co: "Colorado public sector"
+  serves_co: "Colorado public sector, including land and watershed recovery"
   bids_for: Contracts with
 
   footer_languages: Language
@@ -75,7 +77,7 @@ en:
 es:
   locale: es_ES
   nav_solutions: Soluciones
-  nav_industries: Industrias
+  nav_industries: Líneas de trabajo
   nav_terms: Condiciones
   nav_entities: Entidades
   nav_contact: Contacto
@@ -98,14 +100,16 @@ es:
   pay_items:
     - "Cada partida se cotiza a precio fijo en firme, con entrega incluida. Flete, embalaje y cargos ya están en el precio."
     - "Facturamos al entregar. El pago vence 30 días después de que usted acepta los bienes o el trabajo. Lo que se rechaza no se factura."
+    - "La recuperación de suelos y cuencas se factura según el contrato, normalmente con pagos mensuales por avance de obra ejecutada, y la retención, si la hay, se libera con la aceptación final."
     - "Aceptamos transferencia ACH/EFT y transferencia bancaria internacional. Los cheques se envían a la dirección postal de la entidad contratante indicada abajo."
     - "Las entidades de EE. UU. facturan en USD. Vraid Systems Limited (Alberta) factura en CAD o USD, y en otras monedas principales para la ONU y compradores internacionales. Las facturas canadienses incluyen GST cuando corresponde."
     - "Cada entidad de EE. UU. tiene un seguro de responsabilidad civil general de USD 1.000.000 por siniestro o reclamo y USD 2.000.000 en total. Formularios W-9, certificados de seguro y sus formularios de proveedor, a pedido."
-  supply_title: Cómo pagamos a nuestros proveedores
+  supply_title: Cómo pagamos a proveedores y subcontratistas
   supply_items:
-    - "Enviamos una orden de compra escrita con número de parte, cantidad, dirección de entrega y fecha requerida. La orden de compra es el acuerdo completo."
-    - "Pagamos al ordenar con tarjeta, o por ACH o transferencia en los plazos acordados. Nuestro pago nunca depende de que nuestro cliente nos pague."
+    - "Para bienes, enviamos una orden de compra escrita con número de parte, cantidad, dirección de entrega y fecha requerida. La orden de compra es el acuerdo completo."
+    - "Pagamos a los proveedores de bienes al ordenar con tarjeta, o por ACH o transferencia en los plazos acordados. Nuestro pago nunca depende de que nuestro cliente nos pague."
     - "La mayoría de los pedidos se envían directo a nuestro cliente. Aceptamos envío ciego y nunca compartimos sus precios con el comprador final."
+    - "Los subcontratistas de campo en recuperación de suelos y cuencas trabajan con un subcontrato escrito, no con una orden de compra. El subcontrato fija el alcance, los seguros y los plazos de pago."
     - "Si tiene en stock artículos difíciles de conseguir, descontinuados o excedentes, envíe su catálogo a la dirección de abajo."
 
   entities_kicker: Entidades contratantes
@@ -125,10 +129,10 @@ es:
   co_sos: ID Secretaría de Estado de Colorado
   co_vss: Código de proveedor Colorado VSS
   continued_bc: "Trasladada desde Columbia Británica en 2026 (antiguo n.º BC1285724)."
-  serves_ab: "Agencias de la ONU, organizaciones internacionales y sector público de Canadá"
-  serves_wy: "Sector público de Wyoming y gobierno federal de EE. UU."
+  serves_ab: "Bienes, datos y software para agencias de la ONU, organizaciones internacionales y el sector público de Canadá"
+  serves_wy: "Sector público de Wyoming y gobierno federal de EE. UU., incluida la recuperación de suelos y cuencas"
   serves_mt: "Sector público y universidades de Montana"
-  serves_co: "Sector público de Colorado"
+  serves_co: "Sector público de Colorado, incluida la recuperación de suelos y cuencas"
   bids_for: Contrata con
 
   footer_languages: Idioma
@@ -147,7 +151,7 @@ es:
 fr:
   locale: fr_FR
   nav_solutions: Solutions
-  nav_industries: Secteurs
+  nav_industries: Domaines
   nav_terms: Conditions
   nav_entities: Entités
   nav_contact: Contact
@@ -170,14 +174,16 @@ fr:
   pay_items:
     - "Chaque ligne est chiffrée à prix forfaitaire ferme, livraison comprise. Fret, emballage et frais sont inclus dans le montant."
     - "Nous facturons à la livraison. Le paiement est dû 30 jours après votre acceptation des biens ou des travaux. Les articles refusés ne sont pas facturés."
+    - "La restauration des terres et des bassins versants est facturée selon le contrat, en général par situations mensuelles pour les travaux exécutés, la retenue de garantie éventuelle étant libérée à la réception définitive."
     - "Nous acceptons les paiements ACH/EFT et les virements bancaires. Les chèques sont à adresser à l'adresse postale de l'entité contractante indiquée ci-dessous."
     - "Les entités américaines facturent en USD. Vraid Systems Limited (Alberta) facture en CAD ou en USD, et dans d'autres grandes devises pour les Nations Unies et les acheteurs internationaux. Les factures canadiennes incluent la TPS lorsqu'elle s'applique."
     - "Chaque entité américaine est couverte par une assurance responsabilité civile générale de 1 000 000 USD par sinistre ou réclamation et de 2 000 000 USD au total. Formulaires W-9, attestations d'assurance et vos formulaires fournisseur sont disponibles sur demande."
-  supply_title: Comment nous payons nos fournisseurs
+  supply_title: Comment nous payons nos fournisseurs et sous-traitants
   supply_items:
-    - "Nous envoyons un bon de commande écrit indiquant la référence, la quantité, l'adresse de livraison et la date requise. Le bon de commande constitue l'intégralité de l'accord."
-    - "Nous payons à la commande par carte, ou par ACH ou virement selon les conditions convenues. Notre paiement ne dépend jamais du paiement de notre client."
+    - "Pour les biens, nous envoyons un bon de commande écrit indiquant la référence, la quantité, l'adresse de livraison et la date requise. Le bon de commande constitue l'intégralité de l'accord."
+    - "Nous payons les fournisseurs de biens à la commande par carte, ou par ACH ou virement selon les conditions convenues. Notre paiement ne dépend jamais du paiement de notre client."
     - "La plupart des commandes sont expédiées directement à notre client. L'expédition directe anonyme est possible, et nous ne communiquons jamais vos prix à l'acheteur final."
+    - "Les sous-traitants de terrain en restauration des terres et des bassins versants travaillent sous un contrat de sous-traitance écrit, et non un bon de commande. Il fixe l'étendue des travaux, les assurances et les délais de paiement."
     - "Si vous avez en stock des articles introuvables, en fin de série ou en surplus, envoyez votre catalogue à l'adresse ci-dessous."
 
   entities_kicker: Entités contractantes
@@ -197,10 +203,10 @@ fr:
   co_sos: ID du Secrétaire d'État du Colorado
   co_vss: Code fournisseur Colorado VSS
   continued_bc: "Prorogée depuis la Colombie-Britannique en 2026 (ancien n° BC1285724)."
-  serves_ab: "Agences des Nations Unies, organisations internationales et secteur public canadien"
-  serves_wy: "Secteur public du Wyoming et administration fédérale américaine"
+  serves_ab: "Biens, données et logiciels pour les agences des Nations Unies, les organisations internationales et le secteur public canadien"
+  serves_wy: "Secteur public du Wyoming et administration fédérale américaine, y compris la restauration des terres et des bassins versants"
   serves_mt: "Secteur public et universités du Montana"
-  serves_co: "Secteur public du Colorado"
+  serves_co: "Secteur public du Colorado, y compris la restauration des terres et des bassins versants"
   bids_for: Contracte avec
 
   footer_languages: Langue
@@ -219,7 +225,7 @@ fr:
 ru:
   locale: ru_RU
   nav_solutions: Решения
-  nav_industries: Отрасли
+  nav_industries: Направления
   nav_terms: Условия
   nav_entities: Юрлица
   nav_contact: Контакты
@@ -242,14 +248,16 @@ ru:
   pay_items:
     - "Каждая позиция котируется по твердой фиксированной цене с доставкой. Фрахт, упаковка и сборы уже включены."
     - "Счет выставляется при поставке. Оплата производится в течение 30 дней после приемки товара или работы. Отклоненные позиции не оплачиваются."
+    - "Работы по восстановлению земель и водосборов оплачиваются по условиям контракта, как правило ежемесячными платежами за выполненный объем, а удержание, если оно есть, возвращается после окончательной приемки."
     - "Принимаем оплату через ACH/EFT и банковским переводом. Чеки направляются на почтовый адрес соответствующего юрлица, указанный ниже."
     - "Юрлица в США выставляют счета в долларах США. Vraid Systems Limited (Альберта) выставляет счета в канадских или американских долларах, а для ООН и международных заказчиков также в других основных валютах. В канадских счетах указывается GST, если он применяется."
     - "Каждое юрлицо в США застраховано по общей гражданской ответственности: 1 000 000 долларов США на случай или претензию и 2 000 000 долларов США в совокупности. Форма W-9, сертификаты страхования и ваши анкеты поставщика предоставляются по запросу."
-  supply_title: Как мы платим поставщикам
+  supply_title: Как мы платим поставщикам и субподрядчикам
   supply_items:
-    - "Мы направляем письменный заказ с артикулом, количеством, адресом доставки и сроком. Заказ и есть вся договоренность."
-    - "Оплачиваем при заказе картой или через ACH и банковский перевод на согласованных условиях. Наша оплата вам никогда не зависит от оплаты нашим заказчиком."
+    - "Для товаров мы направляем письменный заказ с артикулом, количеством, адресом доставки и сроком. Заказ и есть вся договоренность."
+    - "Поставщикам товаров мы платим при заказе картой или через ACH и банковский перевод на согласованных условиях. Наша оплата вам никогда не зависит от оплаты нашим заказчиком."
     - "Большинство заказов отгружается напрямую заказчику. Возможна анонимная отгрузка, и мы никогда не раскрываем ваши цены конечному покупателю."
+    - "Полевые субподрядчики на работах по восстановлению земель и водосборов работают по письменному договору субподряда, а не по заказу. В нем определяются объем работ, страхование и сроки оплаты."
     - "Если у вас есть редкие, снятые с производства или складские излишки, пришлите свой каталог на адрес ниже."
 
   entities_kicker: Юридические лица
@@ -269,10 +277,10 @@ ru:
   co_sos: ID Госсекретаря Колорадо
   co_vss: Код поставщика Colorado VSS
   continued_bc: "Перерегистрирована из Британской Колумбии в 2026 году (прежний номер BC1285724)."
-  serves_ab: "Агентства ООН, международные организации и государственный сектор Канады"
-  serves_wy: "Государственный сектор Вайоминга и федеральные закупки США"
+  serves_ab: "Товары, данные и ПО для агентств ООН, международных организаций и государственного сектора Канады"
+  serves_wy: "Государственный сектор Вайоминга и федеральные закупки США, включая восстановление земель и водосборов"
   serves_mt: "Государственный сектор и университеты Монтаны"
-  serves_co: "Государственный сектор Колорадо"
+  serves_co: "Государственный сектор Колорадо, включая восстановление земель и водосборов"
   bids_for: Заказчики
 
   footer_languages: Язык
