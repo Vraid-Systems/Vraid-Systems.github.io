@@ -1,0 +1,223 @@
+# Home page copy, keyed by language. Rendered by _includes/home.html.
+# Every work stream follows the same four beats (beat_labels), in the same order.
+# Translated pages lead with goods and software: land recovery is US-only and
+# gets one line (streams_note) instead of a card, since those readers are
+# mostly UN and international buyers contracting with the Alberta entity.
+en:
+  hero_title: "We own the complexity. You own the result."
+  role_title: "The Work That Comes Back No-Bid."
+  role_body: "Large vendors are built for volume. The discontinued part, the four-week data build, and the one-acre clearing job still have to get done, and those are the bids that come back empty. That is the work we take, across three work streams, under one model."
+  model_title: "The Vraid Model"
+  model_body: "You send what came back no-bid. We price it fixed, deliver it through a vetted network, and carry the risk. You pay after you accept the result. Every stream starts small."
+  table_headers: ["Parameter", "Typical Vendor", "The Vraid Model"]
+  table_rows:
+    - ["Pricing", "Estimates, surcharges, and change orders", "Firm-fixed-price, delivery included"]
+    - ["Payment", "Due on shipment or invoice", "Due after you accept the work"]
+    - ["Small or unusual scope", "Often no-bid", "Quoted as written"]
+    - ["Delivery risk", "Passed back to you", "Carried by us"]
+    - ["Getting started", "Full commitment at award", "A small first order, discovery, or site"]
+  streams_kicker: "Work streams"
+  streams_title: "One model, three markets."
+  stream_label: "STREAM"
+  beat_labels: ["The gap", "What we do", "Who does the work", "Start small"]
+  streams:
+    - title: "Hard-to-Source Goods"
+      image: "https://images.unsplash.com/photo-1518558997970-4ddc236affcd?q=80&w=1000&auto=format&fit=crop"
+      beats:
+        - "Discontinued, low-volume, and brand-specific lines that distributors mark no-bid."
+        - "We find the item, quote it line by line, and land it at the price we quoted."
+        - "Our sourcing desk and a network of specialty suppliers and surplus dealers, shipping direct to you."
+        - "A $500 trial order you can end at any time."
+    - title: "Data & Software"
+      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop"
+      beats:
+        - "Reporting, data pipelines, access control, and case or grant tracking too small or too custom for the large integrators."
+        - "We build on platforms you already license where we can, and document everything for you to keep."
+        - "Our engineers, joined by independent in-country specialists where the work needs them."
+        - "A fixed-fee discovery, then a pilot before any rollout."
+    - title: "Land & Watershed Recovery"
+      image: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1000&auto=format&fit=crop"
+      beats:
+        - "Demolition, site clearing, and wildfire and disaster debris removal too small for large contractors and too paperwork-heavy for local crews."
+        - "We hold the prime contract and manage the schedule, submittals, safety plan, and reporting."
+        - "Vetted local crews in Colorado and Wyoming, working under written subcontracts."
+        - "One site at a fixed price."
+  streams_note: ""
+  network_kicker: "How it works"
+  network_title: "One contract with us. A vetted network behind it."
+  network_body:
+    - "Every work stream runs the same way. You contract with one Vraid entity and get one fixed price and one point of accountability. Behind that contract are specialty suppliers, local field crews, and independent experts, each working under written terms."
+    - "Most firms keep those terms private. We publish them, because the people doing the work should know how they get paid before they say yes, and because a network that gets paid on time is one that shows up."
+  network_link: "How we work with suppliers, crews, and experts"
+  cases_kicker: "Case notes"
+  cases_title: "Work we have delivered."
+  case_labels: ["Buyer", "Came back no-bid", "What we did", "Result"]
+  cases_note: "Buyers are described, not named. References are available on request."
+  cases:
+    - - "A Wyoming school district"
+      - "A brand-specific pool chlorinator, specified with no substitutes, on the district's annual custodial supplies bid. We were the only bidder on the line."
+      - "Quoted it at a firm-fixed delivered price and drop-shipped hazmat pallets from the regional dealer to the district warehouse."
+      - "Awarded the line for the 2026 contract year, with repeat orders through the year."
+    - - "A Colorado state corrections department"
+      - "Canteen and program items, including consumer electronics, that catalog distributors don't carry."
+      - "Quoted orders line by line at fixed delivered prices and delivered them."
+      - "Repeat orders from the department."
+
+es:
+  hero_title: "Asumimos la complejidad. Usted obtiene el resultado."
+  role_title: "El trabajo que queda sin oferta."
+  role_body: "Los grandes proveedores están hechos para el volumen. La pieza descontinuada y el desarrollo de datos de cuatro semanas igual tienen que hacerse, y son justamente las licitaciones que quedan sin oferta. Ese es el trabajo que tomamos, bajo un mismo modelo."
+  model_title: "El Modelo Vraid"
+  model_body: "Usted nos envía lo que quedó sin oferta. Lo cotizamos a precio fijo, lo entregamos a través de una red verificada y asumimos el riesgo. Usted paga después de aceptar el resultado. Cada línea empieza en pequeño."
+  table_headers: ["Parámetro", "Proveedor Típico", "El Modelo Vraid"]
+  table_rows:
+    - ["Precio", "Estimaciones, recargos y órdenes de cambio", "Precio fijo en firme, entrega incluida"]
+    - ["Pago", "Al enviar o al facturar", "Después de que usted acepta el trabajo"]
+    - ["Alcance pequeño o inusual", "Con frecuencia sin oferta", "Cotizado tal como se pide"]
+    - ["Riesgo de entrega", "Se le traslada a usted", "Lo asumimos nosotros"]
+    - ["Para empezar", "Compromiso total al adjudicar", "Un primer pedido pequeño o un diagnóstico"]
+  streams_kicker: "Líneas de trabajo"
+  streams_title: "Un solo modelo."
+  stream_label: "LÍNEA"
+  beat_labels: ["La brecha", "Qué hacemos", "Quién hace el trabajo", "Empezar en pequeño"]
+  streams:
+    - title: "Bienes Difíciles de Conseguir"
+      image: "https://images.unsplash.com/photo-1518558997970-4ddc236affcd?q=80&w=1000&auto=format&fit=crop"
+      beats:
+        - "Partidas descontinuadas, de bajo volumen o de marca específica que los distribuidores dejan sin oferta."
+        - "Encontramos el artículo, lo cotizamos partida por partida y lo entregamos al precio cotizado."
+        - "Nuestro equipo de abastecimiento y una red de proveedores especializados y de excedentes, con envío directo a usted."
+        - "Un pedido de prueba de $500 que puede terminar en cualquier momento."
+    - title: "Datos y Software"
+      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop"
+      beats:
+        - "Reportes, flujos de datos, control de acceso y seguimiento de casos o subvenciones, demasiado pequeños o específicos para los grandes integradores."
+        - "Construimos sobre las plataformas que usted ya tiene licenciadas cuando es posible y documentamos todo para que usted lo conserve."
+        - "Nuestros ingenieros, junto con especialistas independientes en el país cuando el trabajo lo requiere."
+        - "Un diagnóstico de tarifa fija y luego un piloto antes de cualquier despliegue."
+  streams_note: "En Colorado y Wyoming, nuestras entidades de EE. UU. también gestionan obras de recuperación de suelos y cuencas: demolición, desbroce de terrenos y retiro de escombros."
+  network_kicker: "Cómo funciona"
+  network_title: "Un solo contrato con nosotros. Una red verificada detrás."
+  network_body:
+    - "Cada línea de trabajo funciona igual. Usted contrata con una entidad de Vraid y obtiene un precio fijo y un solo responsable. Detrás de ese contrato hay proveedores especializados, cuadrillas locales y expertos independientes, cada uno con condiciones por escrito."
+    - "La mayoría de las empresas mantienen esas condiciones en privado. Nosotros las publicamos, porque quien hace el trabajo debe saber cómo se le paga antes de aceptar, y porque una red que cobra a tiempo es una red que cumple."
+  network_link: "Cómo trabajamos con proveedores, cuadrillas y expertos"
+  cases_kicker: "Casos"
+  cases_title: "Trabajo entregado."
+  case_labels: ["Comprador", "Quedó sin oferta", "Qué hicimos", "Resultado"]
+  cases_note: "Describimos a los compradores sin nombrarlos. Referencias disponibles a pedido."
+  cases:
+    - - "Un distrito escolar de Wyoming"
+      - "Un clorador para piscinas de marca específica, sin sustitutos admitidos, en la licitación anual de suministros de limpieza del distrito. Fuimos el único oferente en esa partida."
+      - "Lo cotizamos a precio fijo con entrega y enviamos los pallets de material peligroso directo desde el distribuidor regional al almacén del distrito."
+      - "Adjudicación de la partida para el año contractual 2026, con pedidos repetidos durante el año."
+    - - "Un departamento estatal de correccionales de Colorado"
+      - "Artículos de cantina y de programas, incluida electrónica de consumo, que los catálogos de distribuidores no ofrecen."
+      - "Cotizamos los pedidos partida por partida a precio fijo con entrega y los entregamos."
+      - "Pedidos repetidos del departamento."
+
+fr:
+  hero_title: "Nous gérons la complexité. Vous obtenez le résultat."
+  role_title: "Le travail qui reste sans offre."
+  role_body: "Les grands fournisseurs sont faits pour le volume. La pièce en fin de série et le développement de données de quatre semaines doivent quand même être réalisés, et ce sont justement les appels d'offres qui restent sans réponse. C'est le travail que nous prenons, selon un seul modèle."
+  model_title: "Le modèle Vraid"
+  model_body: "Vous nous envoyez ce qui est resté sans offre. Nous le chiffrons à prix ferme, le livrons par un réseau vérifié et assumons le risque. Vous payez après avoir accepté le résultat. Chaque volet commence petit."
+  table_headers: ["Paramètre", "Fournisseur type", "Le modèle Vraid"]
+  table_rows:
+    - ["Prix", "Estimations, majorations et avenants", "Prix forfaitaire ferme, livraison comprise"]
+    - ["Paiement", "À l'expédition ou à la facture", "Après votre acceptation du travail"]
+    - ["Périmètre restreint ou inhabituel", "Souvent sans offre", "Chiffré tel que demandé"]
+    - ["Risque de livraison", "Reporté sur vous", "Assumé par nous"]
+    - ["Pour commencer", "Engagement total à l'attribution", "Une petite première commande ou un cadrage"]
+  streams_kicker: "Volets"
+  streams_title: "Un seul modèle."
+  stream_label: "VOLET"
+  beat_labels: ["Le manque", "Ce que nous faisons", "Qui réalise le travail", "Commencer petit"]
+  streams:
+    - title: "Biens introuvables"
+      image: "https://images.unsplash.com/photo-1518558997970-4ddc236affcd?q=80&w=1000&auto=format&fit=crop"
+      beats:
+        - "Articles en fin de série, à faible volume ou de marque imposée que les distributeurs laissent sans offre."
+        - "Nous trouvons l'article, le chiffrons ligne par ligne et le livrons au prix annoncé."
+        - "Notre service d'approvisionnement et un réseau de fournisseurs spécialisés et de surplus, en expédition directe chez vous."
+        - "Une commande d'essai de 500 $ que vous pouvez arrêter à tout moment."
+    - title: "Données et logiciels"
+      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop"
+      beats:
+        - "Rapports, pipelines de données, contrôle d'accès et suivi des dossiers ou des subventions, trop petits ou trop spécifiques pour les grands intégrateurs."
+        - "Nous construisons sur les plateformes dont vous détenez déjà les licences lorsque c'est possible, et documentons tout pour que vous le conserviez."
+        - "Nos ingénieurs, accompagnés de spécialistes indépendants dans le pays lorsque le travail l'exige."
+        - "Un cadrage à prix fixe, puis un pilote avant tout déploiement."
+  streams_note: "Au Colorado et au Wyoming, nos entités américaines gèrent aussi des travaux de restauration des terres et des bassins versants : démolition, défrichement de terrains et enlèvement de débris."
+  network_kicker: "Notre fonctionnement"
+  network_title: "Un seul contrat avec nous. Un réseau vérifié derrière."
+  network_body:
+    - "Chaque volet fonctionne de la même façon. Vous contractez avec une seule entité Vraid et obtenez un prix ferme et un seul responsable. Derrière ce contrat, des fournisseurs spécialisés, des équipes de terrain locales et des experts indépendants, chacun sous des conditions écrites."
+    - "La plupart des entreprises gardent ces conditions confidentielles. Nous les publions, parce que ceux qui font le travail doivent savoir comment ils seront payés avant de dire oui, et parce qu'un réseau payé à temps est un réseau qui tient ses engagements."
+  network_link: "Comment nous travaillons avec fournisseurs, équipes et experts"
+  cases_kicker: "Études de cas"
+  cases_title: "Travaux livrés."
+  case_labels: ["Acheteur", "Resté sans offre", "Ce que nous avons fait", "Résultat"]
+  cases_note: "Les acheteurs sont décrits, pas nommés. Références disponibles sur demande."
+  cases:
+    - - "Un district scolaire du Wyoming"
+      - "Un chlorateur de piscine de marque imposée, sans substitution possible, dans l'appel d'offres annuel de fournitures d'entretien du district. Nous étions le seul soumissionnaire sur cette ligne."
+      - "Nous l'avons chiffré à prix ferme livré et expédié les palettes de matières dangereuses directement du distributeur régional à l'entrepôt du district."
+      - "Ligne attribuée pour l'année contractuelle 2026, avec des commandes répétées tout au long de l'année."
+    - - "Un département correctionnel d'État au Colorado"
+      - "Articles de cantine et de programmes, y compris de l'électronique grand public, que les distributeurs sur catalogue ne proposent pas."
+      - "Nous avons chiffré les commandes ligne par ligne à prix ferme livré et les avons livrées."
+      - "Des commandes répétées du département."
+
+ru:
+  hero_title: "Мы берем на себя сложности. Вы получаете результат."
+  role_title: "Работа, на которую нет предложений."
+  role_body: "Крупные поставщики рассчитаны на объем. Снятая с производства деталь и четырехнедельная разработка по данным все равно должны быть выполнены, и именно на такие закупки никто не подает предложений. Это та работа, которую мы берем, по одной модели."
+  model_title: "Модель Vraid"
+  model_body: "Вы присылаете то, на что не поступило предложений. Мы фиксируем цену, выполняем работу через проверенную сеть и берем риск на себя. Вы платите после приемки результата. Каждое направление начинается с малого."
+  table_headers: ["Параметр", "Обычный поставщик", "Модель Vraid"]
+  table_rows:
+    - ["Цена", "Оценки, наценки и допсоглашения", "Твердая фиксированная цена с доставкой"]
+    - ["Оплата", "При отгрузке или по счету", "После приемки работы"]
+    - ["Малый или нестандартный объем", "Часто без предложений", "Котируем как есть"]
+    - ["Риск исполнения", "Перекладывается на вас", "Несем мы"]
+    - ["Начало работы", "Полное обязательство при присуждении", "Небольшой первый заказ или диагностика"]
+  streams_kicker: "Направления"
+  streams_title: "Одна модель."
+  stream_label: "НАПРАВЛЕНИЕ"
+  beat_labels: ["Пробел", "Что мы делаем", "Кто выполняет", "Начать с малого"]
+  streams:
+    - title: "Труднодоступные товары"
+      image: "https://images.unsplash.com/photo-1518558997970-4ddc236affcd?q=80&w=1000&auto=format&fit=crop"
+      beats:
+        - "Снятые с производства, малотиражные и брендовые позиции, на которые дистрибьюторы не подают предложений."
+        - "Находим позицию, котируем каждую строку и доставляем по заявленной цене."
+        - "Наш отдел закупок и сеть специализированных поставщиков и продавцов излишков с прямой отгрузкой вам."
+        - "Пробный заказ на 500 долларов, который можно прекратить в любой момент."
+    - title: "Данные и ПО"
+      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop"
+      beats:
+        - "Отчетность, конвейеры данных, контроль доступа и учет дел или грантов, слишком малые или нестандартные для крупных интеграторов."
+        - "По возможности строим на платформах, на которые у вас уже есть лицензии, и документируем все, что остается у вас."
+        - "Наши инженеры и, где нужно, независимые местные специалисты."
+        - "Диагностика по фиксированной цене, затем пилот до полного внедрения."
+  streams_note: "В Колорадо и Вайоминге наши американские юрлица также ведут работы по восстановлению земель и водосборов: снос, расчистка участков и вывоз завалов."
+  network_kicker: "Как это работает"
+  network_title: "Один договор с нами. Проверенная сеть за ним."
+  network_body:
+    - "Все направления работают одинаково. Вы заключаете договор с одним юрлицом Vraid и получаете одну фиксированную цену и одного ответственного. За этим договором стоят специализированные поставщики, местные бригады и независимые эксперты, каждый на письменных условиях."
+    - "Большинство компаний держат эти условия в тайне. Мы их публикуем, потому что исполнители должны знать, как им заплатят, до того как согласятся, и потому что сеть, которой платят вовремя, выполняет обещанное."
+  network_link: "Как мы работаем с поставщиками, бригадами и экспертами"
+  cases_kicker: "Примеры"
+  cases_title: "Выполненная работа."
+  case_labels: ["Заказчик", "Без предложений", "Что мы сделали", "Результат"]
+  cases_note: "Мы описываем заказчиков, не называя их. Рекомендации по запросу."
+  cases:
+    - - "Школьный округ в Вайоминге"
+      - "Хлоратор для бассейнов конкретного бренда, без замен, в ежегодной закупке хозяйственных товаров округа. Мы были единственным участником по этой позиции."
+      - "Котировали по твердой цене с доставкой и отгружали паллеты опасного груза напрямую от регионального дилера на склад округа."
+      - "Позиция присуждена на 2026 контрактный год, с повторными заказами в течение года."
+    - - "Департамент исправительных учреждений штата Колорадо"
+      - "Товары для магазинов и программ, включая бытовую электронику, которых нет у каталожных дистрибьюторов."
+      - "Котировали заказы по каждой позиции по фиксированной цене с доставкой и поставили их."
+      - "Повторные заказы от департамента."

@@ -1,11 +1,16 @@
-{% assign t = site.data.i18n[current_lang] %}
+{%- comment -%}
+  Buyer terms only. Supplier, field crew and expert terms live on the
+  Work With Us page (_includes/partners.html), linked from the side column.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[current_lang] -%}
+{%- assign partners_page = site.pages | where: "ref", "partners" | where: "lang", current_lang | first -%}
 <section class="border-y border-ghost-gray bg-white/50" id="terms">
     <div class="max-w-7xl mx-auto px-6 py-24">
         <div class="font-mono text-xs text-steel-blue mb-4 uppercase tracking-wider">{{ t.terms_kicker }}</div>
         <h2 class="font-heading font-semibold text-3xl md:text-4xl text-obsidian mb-12">{{ t.terms_title }}</h2>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-            <div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-20">
+            <div class="lg:col-span-2">
                 <h3 class="font-heading font-semibold text-sm uppercase tracking-wide mb-6 text-steel-blue">
                     {{ t.pay_title }}
                 </h3>
@@ -15,15 +20,15 @@
                     {% endfor %}
                 </ul>
             </div>
-            <div>
-                <h3 class="font-heading font-semibold text-sm uppercase tracking-wide mb-6 text-steel-blue">
-                    {{ t.supply_title }}
+            <div class="bg-mint-glass p-6 border-l-2 border-steel-blue self-start">
+                <h3 class="font-heading font-semibold text-sm uppercase tracking-wide mb-2 text-steel-blue">
+                    {{ t.terms_partners_title }}
                 </h3>
-                <ul class="space-y-4 font-sans text-obsidian/80 leading-relaxed">
-                    {% for item in t.supply_items %}
-                    <li class="pl-4 border-l-2 border-ghost-gray">{{ item }}</li>
-                    {% endfor %}
-                </ul>
+                <p class="text-sm leading-relaxed mb-4">{{ t.terms_partners_body }}</p>
+                {%- if partners_page %}
+                <a class="text-sm font-medium text-obsidian underline hover:text-steel-blue"
+                   href="{{ partners_page.url | relative_url }}">{{ t.terms_partners_link }}</a>
+                {%- endif %}
             </div>
         </div>
     </div>

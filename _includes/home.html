@@ -1,0 +1,155 @@
+{%- comment -%}
+  Home page, shared by every language. Copy lives in _data/home.yml.
+  Section order follows one story: the role (no-bid work), the model,
+  the three streams in the same four beats, the network behind them,
+  proof, then terms and entities.
+{%- endcomment -%}
+{%- assign t = site.data.i18n[current_lang] -%}
+{%- assign h = site.data.home[current_lang] -%}
+{%- assign partners_page = site.pages | where: "ref", "partners" | where: "lang", current_lang | first -%}
+{% include nav.html %}
+
+<header class="pt-32 pb-20 md:pt-48 md:pb-32 px-6 max-w-7xl mx-auto w-full relative overflow-hidden">
+    <div class="max-w-4xl relative z-10 fade-in-up" style="animation-delay: 0.1s;">
+
+        <p class="font-mono text-xs text-steel-blue uppercase tracking-wider mb-6">{{ site.description[current_lang] }}</p>
+
+        <h1 class="font-heading font-semibold text-5xl md:text-7xl leading-[1.1] text-obsidian mb-8 tracking-tight">
+            {{ h.hero_title }}
+        </h1>
+
+        <p class="font-sans text-lg md:text-xl text-obsidian/70 leading-relaxed max-w-2xl mb-10 font-light">
+            {{ site.about[current_lang] }}
+        </p>
+
+        <a class="inline-flex items-center gap-2 bg-obsidian text-paper px-8 py-4 text-sm font-medium hover:bg-steel-blue transition-colors duration-300"
+           href="{% include cta-href.html %}">
+            {{ t.cta }}
+            <svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                 stroke-width="2" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                <line x1="5" x2="19" y1="12" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+        </a>
+        <p class="font-sans text-sm text-obsidian/50 mt-4">{{ t.cta_note }}</p>
+    </div>
+</header>
+
+<section class="border-y border-ghost-gray bg-white/50" id="solutions">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2">
+        <div class="p-10 md:p-20 border-b lg:border-b-0 lg:border-r border-ghost-gray flex flex-col justify-center">
+            <h2 class="font-heading font-semibold text-3xl mb-6">{{ h.role_title }}</h2>
+            <p class="font-sans text-obsidian/80 leading-relaxed mb-6">{{ h.role_body }}</p>
+            <div class="bg-mint-glass p-6 border-l-2 border-steel-blue">
+                <h3 class="font-heading font-semibold text-sm uppercase tracking-wide mb-2 text-steel-blue">
+                    {{ h.model_title }}
+                </h3>
+                <p class="text-sm leading-relaxed">{{ h.model_body }}</p>
+            </div>
+        </div>
+
+        <div class="p-10 md:p-20 bg-paper flex flex-col justify-center">
+            <div class="w-full overflow-hidden border border-ghost-gray rounded-sm">
+                <table class="w-full text-left text-sm">
+                    <thead>
+                    <tr class="bg-ghost-gray/20 font-mono text-xs uppercase tracking-wider text-steel-blue border-b border-ghost-gray">
+                        <th class="p-4 font-medium">{{ h.table_headers[0] }}</th>
+                        <th class="p-4 font-medium border-l border-ghost-gray">{{ h.table_headers[1] }}</th>
+                        <th class="p-4 font-medium border-l border-ghost-gray bg-mint-glass/30 text-obsidian">{{ h.table_headers[2] }}</th>
+                    </tr>
+                    </thead>
+                    <tbody class="font-sans">
+                    {%- for row in h.table_rows %}
+                    <tr{% unless forloop.last %} class="border-b border-ghost-gray"{% endunless %}>
+                        <td class="p-4 font-medium text-obsidian/70">{{ row[0] }}</td>
+                        <td class="p-4 text-obsidian/60 border-l border-ghost-gray">{{ row[1] }}</td>
+                        <td class="p-4 font-medium text-obsidian border-l border-ghost-gray bg-mint-glass/10">{{ row[2] }}</td>
+                    </tr>
+                    {%- endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="w-full" id="industries">
+    <div class="max-w-7xl mx-auto px-6 pt-24 pb-12">
+        <div class="font-mono text-xs text-steel-blue mb-4 uppercase tracking-wider">{{ h.streams_kicker }}</div>
+        <h2 class="font-heading font-semibold text-3xl md:text-4xl text-obsidian">{{ h.streams_title }}</h2>
+    </div>
+    <div class="grid grid-cols-1 border-t border-ghost-gray {% if h.streams.size == 3 %}md:grid-cols-3{% else %}md:grid-cols-2{% endif %}">
+        {%- for s in h.streams %}
+        <div class="group relative border-b border-ghost-gray overflow-hidden hover:bg-gray-50 transition-colors{% unless forloop.last %} md:border-r{% endunless %}">
+            <div class="absolute inset-0 bg-cover bg-center grayscale opacity-0 group-hover:opacity-10 transition-opacity duration-700"
+                 style="background-image: url('{{ s.image }}');"></div>
+            <div class="relative z-10 p-8 md:p-10">
+                <div class="font-mono text-xs text-steel-blue mb-2">{{ h.stream_label }} 0{{ forloop.index }}</div>
+                <h3 class="font-heading font-semibold text-xl mb-6">{{ s.title }}</h3>
+                <dl class="space-y-4 text-sm">
+                    {%- for beat in s.beats %}
+                    <div>
+                        <dt class="font-mono text-xs uppercase tracking-wider text-obsidian/50 mb-1">{{ h.beat_labels[forloop.index0] }}</dt>
+                        <dd class="text-obsidian/80 leading-relaxed">{{ beat }}</dd>
+                    </div>
+                    {%- endfor %}
+                </dl>
+            </div>
+        </div>
+        {%- endfor %}
+    </div>
+    {%- if h.streams_note != "" %}
+    <p class="max-w-7xl mx-auto px-6 py-6 text-sm text-obsidian/70">{{ h.streams_note }}</p>
+    {%- endif %}
+</section>
+
+<section class="py-24 px-6 max-w-7xl mx-auto w-full" id="network">
+    <div class="flex flex-col md:flex-row gap-12 items-start">
+        <div class="md:w-1/3">
+            <div class="font-mono text-xs text-steel-blue mb-4 uppercase tracking-wider">{{ h.network_kicker }}</div>
+            <h2 class="font-heading font-semibold text-3xl md:text-4xl text-obsidian">{{ h.network_title }}</h2>
+        </div>
+        <div class="md:w-2/3 max-w-2xl">
+            {%- for para in h.network_body %}
+            <p class="font-sans text-lg text-obsidian/80 leading-relaxed mb-6">{{ para }}</p>
+            {%- endfor %}
+            {%- if partners_page %}
+            <a class="inline-flex items-center gap-2 text-sm font-medium text-obsidian border-b border-obsidian hover:text-steel-blue hover:border-steel-blue transition-colors"
+               href="{{ partners_page.url | relative_url }}">
+                {{ h.network_link }}
+                <svg fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                     stroke-width="2" viewBox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="5" x2="19" y1="12" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </a>
+            {%- endif %}
+        </div>
+    </div>
+</section>
+
+{%- if h.cases.size > 0 %}
+<section class="border-y border-ghost-gray bg-white/50" id="cases">
+    <div class="max-w-7xl mx-auto px-6 py-24">
+        <div class="font-mono text-xs text-steel-blue mb-4 uppercase tracking-wider">{{ h.cases_kicker }}</div>
+        <h2 class="font-heading font-semibold text-3xl md:text-4xl text-obsidian mb-12">{{ h.cases_title }}</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-ghost-gray border border-ghost-gray">
+            {%- for c in h.cases %}
+            <dl class="bg-paper p-8 space-y-4 text-sm">
+                {%- for line in c %}
+                <div>
+                    <dt class="font-mono text-xs uppercase tracking-wider text-steel-blue mb-1">{{ h.case_labels[forloop.index0] }}</dt>
+                    <dd class="{% if forloop.first %}font-heading font-semibold text-lg text-obsidian{% else %}text-obsidian/80 leading-relaxed{% endif %}">{{ line }}</dd>
+                </div>
+                {%- endfor %}
+            </dl>
+            {%- endfor %}
+        </div>
+        <p class="text-xs text-obsidian/50 mt-6">{{ h.cases_note }}</p>
+    </div>
+</section>
+{%- endif %}
+
+{% include terms.html %}
+
+{% include entities.html %}
