@@ -37,6 +37,12 @@ en:
     - "Field subcontractors on land and watershed recovery work under a written subcontract, not a purchase order. It sets the scope, insurance, and payment timing."
     - "If you stock hard-to-find, discontinued, or surplus items, send your line card to the address below."
 
+  experts_title: How we pay independent experts and consultants
+  experts_items:
+    - "We name you on a bid only with your written consent, for the days you will actually work, using a CV you have approved. We don't ask for exclusivity unless the tender requires it."
+    - "Your day rate is agreed before we submit. Days worked are paid monthly in arrears against your timesheet, by bank transfer within 15 days of your invoice, in USD by default."
+    - "Paying you never depends on our customer paying us."
+
   entities_kicker: Contracting entities
   entities_title: Who you contract with.
   entities_intro: "Vraid Systems is a group of four companies under common ownership. Each one bids in its own market and signs its own contracts."
@@ -112,6 +118,12 @@ es:
     - "Los subcontratistas de campo en recuperación de suelos y cuencas trabajan con un subcontrato escrito, no con una orden de compra. El subcontrato fija el alcance, los seguros y los plazos de pago."
     - "Si tiene en stock artículos difíciles de conseguir, descontinuados o excedentes, envíe su catálogo a la dirección de abajo."
 
+  experts_title: Cómo pagamos a expertos y consultores independientes
+  experts_items:
+    - "Solo lo incluimos en una oferta con su consentimiento por escrito, por los días que realmente trabajará y con un CV que usted haya aprobado. No pedimos exclusividad salvo que la licitación lo exija."
+    - "Su tarifa diaria se acuerda antes de presentar la oferta. Los días trabajados se pagan mensualmente, a mes vencido, contra su hoja de horas, por transferencia bancaria dentro de los 15 días de su factura, en USD por defecto."
+    - "Nuestro pago nunca depende de que nuestro cliente nos pague."
+
   entities_kicker: Entidades contratantes
   entities_title: Con quién contrata.
   entities_intro: "Vraid Systems es un grupo de cuatro empresas bajo propiedad común. Cada una licita en su propio mercado y firma sus propios contratos."
@@ -186,6 +198,12 @@ fr:
     - "Les sous-traitants de terrain en restauration des terres et des bassins versants travaillent sous un contrat de sous-traitance écrit, et non un bon de commande. Il fixe l'étendue des travaux, les assurances et les délais de paiement."
     - "Si vous avez en stock des articles introuvables, en fin de série ou en surplus, envoyez votre catalogue à l'adresse ci-dessous."
 
+  experts_title: Comment nous payons les experts et consultants indépendants
+  experts_items:
+    - "Nous ne vous proposons dans une offre qu'avec votre accord écrit, pour les jours que vous travaillerez réellement, avec un CV que vous avez approuvé. Nous ne demandons pas d'exclusivité sauf si l'appel d'offres l'exige."
+    - "Votre tarif journalier est convenu avant le dépôt de l'offre. Les jours travaillés sont payés mensuellement à terme échu sur la base de votre feuille de temps, par virement bancaire dans les 15 jours suivant votre facture, en USD par défaut."
+    - "Notre paiement ne dépend jamais du paiement de notre client."
+
   entities_kicker: Entités contractantes
   entities_title: Avec qui vous contractez.
   entities_intro: "Vraid Systems est un groupe de quatre sociétés sous contrôle commun. Chacune soumissionne sur son propre marché et signe ses propres contrats."
@@ -259,6 +277,12 @@ ru:
     - "Большинство заказов отгружается напрямую заказчику. Возможна анонимная отгрузка, и мы никогда не раскрываем ваши цены конечному покупателю."
     - "Полевые субподрядчики на работах по восстановлению земель и водосборов работают по письменному договору субподряда, а не по заказу. В нем определяются объем работ, страхование и сроки оплаты."
     - "Если у вас есть редкие, снятые с производства или складские излишки, пришлите свой каталог на адрес ниже."
+
+  experts_title: Как мы платим независимым экспертам и консультантам
+  experts_items:
+    - "Мы включаем вас в заявку только с вашего письменного согласия, на то количество дней, которое вы действительно отработаете, и с резюме, которое вы одобрили. Мы не требуем эксклюзивности, если этого не требует тендер."
+    - "Ваша дневная ставка согласуется до подачи заявки. Отработанные дни оплачиваются ежемесячно по факту на основании табеля, банковским переводом в течение 15 дней после получения счета, по умолчанию в долларах США."
+    - "Наша оплата вам никогда не зависит от оплаты нашим заказчиком."
 
   entities_kicker: Юридические лица
   entities_title: С кем вы заключаете договор.
