@@ -4,12 +4,17 @@
 
 ## Where things live
 
-- `index.html`, `es.html`, `fr.html`, `ru.html`: home page copy per language.
-- `en/`, `es/`, `fr/`, `ru/`: policy pages (privacy, conduct) as Markdown, using `_layouts/policy.html`.
-- `_data/i18n.yml`: shared UI strings (nav, CTA, terms, entity labels, month names) per language.
+- `index.html`, `es.html`, `fr.html`, `ru.html`: home page shells. Each one includes `_includes/home.html`.
+- `_data/home.yml`: home page copy per language (role, model table, work streams, network, case notes).
+  Every work stream uses the same four beats in the same order. Translated pages show goods and
+  software as cards and land recovery as one line (`streams_note`), since those readers mostly
+  contract with the Alberta entity.
+- `en/`, `es/`, `fr/`, `ru/`: policy pages (privacy, conduct) as Markdown, using `_layouts/policy.html`,
+  and the Work With Us page (`work-with-us.html`, `ref: partners`), which includes `_includes/partners.html`.
+- `_data/i18n.yml`: shared UI strings (nav, CTA, buyer terms, partner terms, entity labels, month names) per language.
 - `_data/entities.yml`: contracting entities shown on the site and in the JSON-LD.
   Only public-record identifiers go here. Never add EINs, insurance policy numbers, or bank details.
-- `_includes/`: nav, terms, and entity sections shared by all languages.
+- `_includes/`: home, partners, nav, terms, and entity sections shared by all languages.
 
 ## Languages and translations
 

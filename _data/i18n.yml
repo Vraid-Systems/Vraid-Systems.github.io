@@ -5,19 +5,21 @@ en:
   nav_industries: Work Streams
   nav_terms: Terms
   nav_entities: Entities
+  nav_partners: "Work With Us"
   nav_contact: Contact
   menu: Menu
-  cta: Send Us Your No-Bid Lines
-  cta_subject: "No-bid lines for quote"
+  cta: "Send Us What Came Back No-Bid"
+  cta_subject: "Work that came back no-bid"
   cta_body: |
     Agency or organization:
     Solicitation or PO number (if any):
-    Delivery location:
+    What came back no-bid (line items, a data or software need, or a site):
+    Delivery location or site address:
     Need-by date:
 
-    Lines (part number, description, quantity), or attach your line sheet:
+    Details, or attach your line sheet, scope, or drawings:
 
-  cta_note: Opens an email with a short template. A line sheet or spreadsheet is fine.
+  cta_note: "A line sheet, a scope, or a site address is enough. Opens an email with a short template."
 
   terms_kicker: Terms
   terms_title: The fine print, in plain language.
@@ -29,19 +31,35 @@ en:
     - "We accept ACH/EFT and wire transfer. Cheques go to the mailing address of the contracting entity below."
     - "US entities invoice in USD. Vraid Systems Limited (Alberta) invoices in CAD or USD, and in other major currencies for UN and international buyers. Canadian invoices include GST where it applies."
     - "Each US entity carries commercial general liability insurance of $1,000,000 per occurrence or claim and $2,000,000 aggregate. W-9s, certificates of insurance, and your vendor forms are available on request."
-  supply_title: How we pay suppliers and subcontractors
-  supply_items:
-    - "For goods, we send a written purchase order with the part number, quantity, ship-to address, and required date. The PO is the whole agreement."
-    - "We pay goods suppliers at order by card, or by ACH or wire on agreed terms. Paying you never depends on our customer paying us."
-    - "Most orders ship direct to our customer. Blind drop-ship is fine, and we never share your pricing with the end buyer."
-    - "Field subcontractors on land and watershed recovery work under a written subcontract, not a purchase order. It sets the scope, insurance, and payment timing."
-    - "If you stock hard-to-find, discontinued, or surplus items, send your line card to the address below."
+  terms_partners_title: "Suppliers, crews, and experts"
+  terms_partners_body: "We publish how we pay the people who do the work: purchase orders for suppliers, written subcontracts for field crews, and day rates for independent experts."
+  terms_partners_link: "Read our partner terms"
 
-  experts_title: How we pay independent experts and consultants
+  partners_kicker: "Partners"
+  partners_title: "Work with us."
+  partners_intro: "Vraid holds the contract and carries the risk. The work is done by specialty suppliers, local field crews, and independent experts. These are our terms for each of you, in writing, before you say yes."
+  supply_title: "Suppliers"
+  supply_items:
+    - "We send a written purchase order with the part number, quantity, ship-to address, and required date. The PO is the whole agreement."
+    - "We pay at order by card, or by ACH or wire on agreed terms. Paying you never depends on our customer paying us."
+    - "Most orders ship direct to our customer. Blind drop-ship is fine, and we never share your pricing with the end buyer."
+    - "If you stock hard-to-find, discontinued, or surplus items, send us your line card."
+  supply_cta: "Send your line card"
+  supply_subject: "Supplier line card"
+  crews_title: "Field crews"
+  crews_items:
+    - "We find the public jobs, write the bid, hold the prime contract, and handle submittals, reporting, and pay applications. You do the field work."
+    - "Every job runs under a written subcontract, not a purchase order. It sets the scope, insurance, and payment timing before you start."
+    - "We work in Colorado and Wyoming today, on demolition, site clearing, and debris removal."
+  crews_cta: "Introduce your crew"
+  crews_subject: "Field crew introduction"
+  experts_title: "Independent experts and consultants"
   experts_items:
     - "We name you on a bid only with your written consent, for the days you will actually work, using a CV you have approved. We don't ask for exclusivity unless the tender requires it."
     - "Your day rate is agreed before we submit. Days worked are paid monthly in arrears against your timesheet, by bank transfer within 15 days of your invoice, in USD by default."
     - "Paying you never depends on our customer paying us."
+  experts_cta: "Send your CV"
+  experts_subject: "Independent expert introduction"
 
   entities_kicker: Contracting entities
   entities_title: Who you contract with.
@@ -86,19 +104,21 @@ es:
   nav_industries: Líneas de trabajo
   nav_terms: Condiciones
   nav_entities: Entidades
+  nav_partners: "Trabaje con nosotros"
   nav_contact: Contacto
   menu: Menú
-  cta: Envíenos sus partidas sin oferta
-  cta_subject: "Partidas sin oferta para cotizar"
+  cta: "Envíenos lo que quedó sin oferta"
+  cta_subject: "Trabajo que quedó sin oferta"
   cta_body: |
     Organismo u organización:
     Número de licitación u orden de compra (si existe):
+    Qué quedó sin oferta (partidas o una necesidad de datos o software):
     Lugar de entrega:
     Fecha requerida:
 
-    Partidas (número de parte, descripción, cantidad), o adjunte su planilla:
+    Detalles, o adjunte su planilla o alcance:
 
-  cta_note: Abre un correo con una plantilla breve. Una planilla o una hoja de cálculo sirven.
+  cta_note: "Una planilla o un alcance basta. Abre un correo con una plantilla breve."
 
   terms_kicker: Condiciones
   terms_title: La letra chica, en lenguaje claro.
@@ -110,19 +130,35 @@ es:
     - "Aceptamos transferencia ACH/EFT y transferencia bancaria internacional. Los cheques se envían a la dirección postal de la entidad contratante indicada abajo."
     - "Las entidades de EE. UU. facturan en USD. Vraid Systems Limited (Alberta) factura en CAD o USD, y en otras monedas principales para la ONU y compradores internacionales. Las facturas canadienses incluyen GST cuando corresponde."
     - "Cada entidad de EE. UU. tiene un seguro de responsabilidad civil general de USD 1.000.000 por siniestro o reclamo y USD 2.000.000 en total. Formularios W-9, certificados de seguro y sus formularios de proveedor, a pedido."
-  supply_title: Cómo pagamos a proveedores y subcontratistas
-  supply_items:
-    - "Para bienes, enviamos una orden de compra escrita con número de parte, cantidad, dirección de entrega y fecha requerida. La orden de compra es el acuerdo completo."
-    - "Pagamos a los proveedores de bienes al ordenar con tarjeta, o por ACH o transferencia en los plazos acordados. Nuestro pago nunca depende de que nuestro cliente nos pague."
-    - "La mayoría de los pedidos se envían directo a nuestro cliente. Aceptamos envío ciego y nunca compartimos sus precios con el comprador final."
-    - "Los subcontratistas de campo en recuperación de suelos y cuencas trabajan con un subcontrato escrito, no con una orden de compra. El subcontrato fija el alcance, los seguros y los plazos de pago."
-    - "Si tiene en stock artículos difíciles de conseguir, descontinuados o excedentes, envíe su catálogo a la dirección de abajo."
+  terms_partners_title: "Proveedores, cuadrillas y expertos"
+  terms_partners_body: "Publicamos cómo pagamos a quienes hacen el trabajo: órdenes de compra para proveedores, subcontratos escritos para cuadrillas y tarifas diarias para expertos independientes."
+  terms_partners_link: "Ver condiciones para socios"
 
-  experts_title: Cómo pagamos a expertos y consultores independientes
+  partners_kicker: "Socios"
+  partners_title: "Trabaje con nosotros."
+  partners_intro: "Vraid firma el contrato y asume el riesgo. El trabajo lo hacen proveedores especializados, cuadrillas locales y expertos independientes. Estas son nuestras condiciones para cada uno, por escrito, antes de que acepte."
+  supply_title: "Proveedores"
+  supply_items:
+    - "Enviamos una orden de compra escrita con número de parte, cantidad, dirección de entrega y fecha requerida. La orden de compra es el acuerdo completo."
+    - "Pagamos al ordenar con tarjeta, o por ACH o transferencia en los plazos acordados. Nuestro pago nunca depende de que nuestro cliente nos pague."
+    - "La mayoría de los pedidos se envían directo a nuestro cliente. Aceptamos envío ciego y nunca compartimos sus precios con el comprador final."
+    - "Si tiene en stock artículos difíciles de conseguir, descontinuados o excedentes, envíenos su catálogo."
+  supply_cta: "Envíe su catálogo"
+  supply_subject: "Catálogo de proveedor"
+  crews_title: "Cuadrillas de campo"
+  crews_items:
+    - "Encontramos las obras públicas, preparamos la oferta, firmamos el contrato principal y nos encargamos de la documentación, los informes y las solicitudes de pago. Ustedes hacen el trabajo de campo."
+    - "Cada obra se hace con un subcontrato escrito, no con una orden de compra. Fija el alcance, los seguros y los plazos de pago antes de empezar."
+    - "Hoy trabajamos en Colorado y Wyoming, en demolición, desbroce de terrenos y retiro de escombros."
+  crews_cta: "Presente su cuadrilla"
+  crews_subject: "Presentación de cuadrilla"
+  experts_title: "Expertos y consultores independientes"
   experts_items:
     - "Solo lo incluimos en una oferta con su consentimiento por escrito, por los días que realmente trabajará y con un CV que usted haya aprobado. No pedimos exclusividad salvo que la licitación lo exija."
     - "Su tarifa diaria se acuerda antes de presentar la oferta. Los días trabajados se pagan mensualmente, a mes vencido, contra su hoja de horas, por transferencia bancaria dentro de los 15 días de su factura, en USD por defecto."
     - "Nuestro pago nunca depende de que nuestro cliente nos pague."
+  experts_cta: "Envíe su CV"
+  experts_subject: "Presentación de experto independiente"
 
   entities_kicker: Entidades contratantes
   entities_title: Con quién contrata.
@@ -166,19 +202,21 @@ fr:
   nav_industries: Domaines
   nav_terms: Conditions
   nav_entities: Entités
+  nav_partners: "Travailler avec nous"
   nav_contact: Contact
   menu: Menu
-  cta: Envoyez-nous vos lignes sans offre
-  cta_subject: "Lignes sans offre à chiffrer"
+  cta: "Envoyez-nous ce qui est resté sans offre"
+  cta_subject: "Travail resté sans offre"
   cta_body: |
-    Organisme ou organisation :
-    Numéro d'appel d'offres ou de bon de commande (le cas échéant) :
-    Lieu de livraison :
-    Date requise :
+    Organisme ou organisation :
+    Numéro d'appel d'offres ou de bon de commande (le cas échéant) :
+    Ce qui est resté sans offre (lignes d'articles ou besoin en données ou logiciels) :
+    Lieu de livraison :
+    Date requise :
 
-    Lignes (référence, désignation, quantité), ou joignez votre liste :
+    Détails, ou joignez votre liste ou votre cahier des charges :
 
-  cta_note: Ouvre un courriel avec un court modèle. Une liste ou un tableur suffit.
+  cta_note: "Une liste ou un cahier des charges suffit. Ouvre un courriel avec un court modèle."
 
   terms_kicker: Conditions
   terms_title: Les petits caractères, en clair.
@@ -190,19 +228,35 @@ fr:
     - "Nous acceptons les paiements ACH/EFT et les virements bancaires. Les chèques sont à adresser à l'adresse postale de l'entité contractante indiquée ci-dessous."
     - "Les entités américaines facturent en USD. Vraid Systems Limited (Alberta) facture en CAD ou en USD, et dans d'autres grandes devises pour les Nations Unies et les acheteurs internationaux. Les factures canadiennes incluent la TPS lorsqu'elle s'applique."
     - "Chaque entité américaine est couverte par une assurance responsabilité civile générale de 1 000 000 USD par sinistre ou réclamation et de 2 000 000 USD au total. Formulaires W-9, attestations d'assurance et vos formulaires fournisseur sont disponibles sur demande."
-  supply_title: Comment nous payons nos fournisseurs et sous-traitants
-  supply_items:
-    - "Pour les biens, nous envoyons un bon de commande écrit indiquant la référence, la quantité, l'adresse de livraison et la date requise. Le bon de commande constitue l'intégralité de l'accord."
-    - "Nous payons les fournisseurs de biens à la commande par carte, ou par ACH ou virement selon les conditions convenues. Notre paiement ne dépend jamais du paiement de notre client."
-    - "La plupart des commandes sont expédiées directement à notre client. L'expédition directe anonyme est possible, et nous ne communiquons jamais vos prix à l'acheteur final."
-    - "Les sous-traitants de terrain en restauration des terres et des bassins versants travaillent sous un contrat de sous-traitance écrit, et non un bon de commande. Il fixe l'étendue des travaux, les assurances et les délais de paiement."
-    - "Si vous avez en stock des articles introuvables, en fin de série ou en surplus, envoyez votre catalogue à l'adresse ci-dessous."
+  terms_partners_title: "Fournisseurs, équipes et experts"
+  terms_partners_body: "Nous publions la façon dont nous payons ceux qui font le travail : bons de commande pour les fournisseurs, contrats de sous-traitance écrits pour les équipes de terrain et tarifs journaliers pour les experts indépendants."
+  terms_partners_link: "Lire nos conditions partenaires"
 
-  experts_title: Comment nous payons les experts et consultants indépendants
+  partners_kicker: "Partenaires"
+  partners_title: "Travaillez avec nous."
+  partners_intro: "Vraid porte le contrat et assume le risque. Le travail est réalisé par des fournisseurs spécialisés, des équipes de terrain locales et des experts indépendants. Voici nos conditions pour chacun d'entre vous, par écrit, avant que vous ne disiez oui."
+  supply_title: "Fournisseurs"
+  supply_items:
+    - "Nous envoyons un bon de commande écrit indiquant la référence, la quantité, l'adresse de livraison et la date requise. Le bon de commande constitue l'intégralité de l'accord."
+    - "Nous payons à la commande par carte, ou par ACH ou virement selon les conditions convenues. Notre paiement ne dépend jamais du paiement de notre client."
+    - "La plupart des commandes sont expédiées directement à notre client. L'expédition directe anonyme est possible, et nous ne communiquons jamais vos prix à l'acheteur final."
+    - "Si vous avez en stock des articles introuvables, en fin de série ou en surplus, envoyez-nous votre catalogue."
+  supply_cta: "Envoyez votre catalogue"
+  supply_subject: "Catalogue fournisseur"
+  crews_title: "Équipes de terrain"
+  crews_items:
+    - "Nous trouvons les chantiers publics, rédigeons l'offre, portons le contrat principal et gérons les soumissions, les rapports et les demandes de paiement. Vous réalisez les travaux sur le terrain."
+    - "Chaque chantier se fait sous un contrat de sous-traitance écrit, et non un bon de commande. Il fixe l'étendue des travaux, les assurances et les délais de paiement avant le démarrage."
+    - "Nous travaillons aujourd'hui au Colorado et au Wyoming, en démolition, défrichement de terrains et enlèvement de débris."
+  crews_cta: "Présentez votre équipe"
+  crews_subject: "Présentation d'équipe de terrain"
+  experts_title: "Experts et consultants indépendants"
   experts_items:
     - "Nous ne vous proposons dans une offre qu'avec votre accord écrit, pour les jours que vous travaillerez réellement, avec un CV que vous avez approuvé. Nous ne demandons pas d'exclusivité sauf si l'appel d'offres l'exige."
     - "Votre tarif journalier est convenu avant le dépôt de l'offre. Les jours travaillés sont payés mensuellement à terme échu sur la base de votre feuille de temps, par virement bancaire dans les 15 jours suivant votre facture, en USD par défaut."
     - "Notre paiement ne dépend jamais du paiement de notre client."
+  experts_cta: "Envoyez votre CV"
+  experts_subject: "Présentation d'expert indépendant"
 
   entities_kicker: Entités contractantes
   entities_title: Avec qui vous contractez.
@@ -246,19 +300,21 @@ ru:
   nav_industries: Направления
   nav_terms: Условия
   nav_entities: Юрлица
+  nav_partners: "Сотрудничество"
   nav_contact: Контакты
   menu: Меню
-  cta: Пришлите позиции без предложений
-  cta_subject: "Позиции без предложений для котировки"
+  cta: "Пришлите то, на что нет предложений"
+  cta_subject: "Работа без предложений"
   cta_body: |
     Учреждение или организация:
     Номер закупки или заказа (если есть):
+    На что нет предложений (позиции или задача по данным или ПО):
     Место поставки:
     Требуемая дата:
 
-    Позиции (артикул, описание, количество) или приложите спецификацию:
+    Подробности или приложите спецификацию или техническое задание:
 
-  cta_note: Откроется письмо с коротким шаблоном. Подойдет любая спецификация или таблица.
+  cta_note: "Достаточно спецификации или описания задачи. Откроется письмо с коротким шаблоном."
 
   terms_kicker: Условия
   terms_title: Мелкий шрифт простыми словами.
@@ -270,19 +326,35 @@ ru:
     - "Принимаем оплату через ACH/EFT и банковским переводом. Чеки направляются на почтовый адрес соответствующего юрлица, указанный ниже."
     - "Юрлица в США выставляют счета в долларах США. Vraid Systems Limited (Альберта) выставляет счета в канадских или американских долларах, а для ООН и международных заказчиков также в других основных валютах. В канадских счетах указывается GST, если он применяется."
     - "Каждое юрлицо в США застраховано по общей гражданской ответственности: 1 000 000 долларов США на случай или претензию и 2 000 000 долларов США в совокупности. Форма W-9, сертификаты страхования и ваши анкеты поставщика предоставляются по запросу."
-  supply_title: Как мы платим поставщикам и субподрядчикам
-  supply_items:
-    - "Для товаров мы направляем письменный заказ с артикулом, количеством, адресом доставки и сроком. Заказ и есть вся договоренность."
-    - "Поставщикам товаров мы платим при заказе картой или через ACH и банковский перевод на согласованных условиях. Наша оплата вам никогда не зависит от оплаты нашим заказчиком."
-    - "Большинство заказов отгружается напрямую заказчику. Возможна анонимная отгрузка, и мы никогда не раскрываем ваши цены конечному покупателю."
-    - "Полевые субподрядчики на работах по восстановлению земель и водосборов работают по письменному договору субподряда, а не по заказу. В нем определяются объем работ, страхование и сроки оплаты."
-    - "Если у вас есть редкие, снятые с производства или складские излишки, пришлите свой каталог на адрес ниже."
+  terms_partners_title: "Поставщики, бригады и эксперты"
+  terms_partners_body: "Мы публикуем, как платим исполнителям: заказы для поставщиков, письменные договоры субподряда для бригад и дневные ставки для независимых экспертов."
+  terms_partners_link: "Условия для партнеров"
 
-  experts_title: Как мы платим независимым экспертам и консультантам
+  partners_kicker: "Партнерам"
+  partners_title: "Работайте с нами."
+  partners_intro: "Vraid заключает договор и несет риск. Работу выполняют специализированные поставщики, местные бригады и независимые эксперты. Вот наши условия для каждого из вас, письменно, до того как вы согласитесь."
+  supply_title: "Поставщики"
+  supply_items:
+    - "Мы направляем письменный заказ с артикулом, количеством, адресом доставки и сроком. Заказ и есть вся договоренность."
+    - "Оплачиваем при заказе картой или через ACH и банковский перевод на согласованных условиях. Наша оплата вам никогда не зависит от оплаты нашим заказчиком."
+    - "Большинство заказов отгружается напрямую заказчику. Возможна анонимная отгрузка, и мы никогда не раскрываем ваши цены конечному покупателю."
+    - "Если у вас есть редкие, снятые с производства или складские излишки, пришлите нам свой каталог."
+  supply_cta: "Отправить каталог"
+  supply_subject: "Каталог поставщика"
+  crews_title: "Полевые бригады"
+  crews_items:
+    - "Мы находим государственные заказы, готовим заявку, заключаем генеральный договор и ведем документацию, отчетность и заявки на оплату. Вы выполняете полевые работы."
+    - "Каждый объект выполняется по письменному договору субподряда, а не по заказу. В нем до начала работ определяются объем, страхование и сроки оплаты."
+    - "Сейчас мы работаем в Колорадо и Вайоминге: снос, расчистка участков и вывоз завалов."
+  crews_cta: "Представить бригаду"
+  crews_subject: "Знакомство с бригадой"
+  experts_title: "Независимые эксперты и консультанты"
   experts_items:
     - "Мы включаем вас в заявку только с вашего письменного согласия, на то количество дней, которое вы действительно отработаете, и с резюме, которое вы одобрили. Мы не требуем эксклюзивности, если этого не требует тендер."
     - "Ваша дневная ставка согласуется до подачи заявки. Отработанные дни оплачиваются ежемесячно по факту на основании табеля, банковским переводом в течение 15 дней после получения счета, по умолчанию в долларах США."
     - "Наша оплата вам никогда не зависит от оплаты нашим заказчиком."
+  experts_cta: "Отправить резюме"
+  experts_subject: "Знакомство с независимым экспертом"
 
   entities_kicker: Юридические лица
   entities_title: С кем вы заключаете договор.
